@@ -1,0 +1,1671 @@
+2024-01-15 15:29:17 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-15 15:29:17 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-15 15:29:17 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 91 features.
+2024-01-15 15:29:17 - root - INFO: - [AutoFeat] With 404 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-15 15:29:17 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-15 15:29:18 - root - INFO: - [feateng] Generated 59 transformed features from 13 original features - done.
+2024-01-15 15:29:18 - root - INFO: - [feateng] Generated altogether 59 new features in 1 steps
+2024-01-15 15:29:18 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-15 15:29:18 - root - INFO: - [feateng] Generated a total of 53 additional features
+2024-01-15 15:29:23 - root - INFO: - [featsel] 17 features after 2 feature selection runs
+2024-01-15 15:29:23 - root - INFO: - [featsel] 15 features after correlation filtering
+2024-01-15 15:29:23 - root - INFO: - [featsel] 14 features after noise filtering
+2024-01-15 15:29:23 - root - INFO: - [AutoFeat] Computing 7 new features.
+2024-01-15 15:29:23 - root - INFO: - [AutoFeat]     7/    7 new features ...done.
+2024-01-15 15:29:23 - root - INFO: - [AutoFeat] Final dataframe with 20 feature columns (7 new).
+2024-01-15 15:29:23 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-15 15:29:23 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-15 15:29:23 - root - INFO: - 19.986114668228737
+2024-01-15 15:29:23 - root - INFO: - -5.240308 * x012
+2024-01-15 15:29:23 - root - INFO: - 4.015388 * Abs(x005)
+2024-01-15 15:29:23 - root - INFO: - 2.821831 * x005
+2024-01-15 15:29:23 - root - INFO: - -2.064859 * Abs(x004)
+2024-01-15 15:29:23 - root - INFO: - -1.469198 * x010
+2024-01-15 15:29:23 - root - INFO: - 1.349015 * Abs(x002)
+2024-01-15 15:29:23 - root - INFO: - -1.300977 * x000
+2024-01-15 15:29:23 - root - INFO: - 1.104994 * x012**2
+2024-01-15 15:29:23 - root - INFO: - -1.055137 * x007
+2024-01-15 15:29:23 - root - INFO: - 0.688588 * x003
+2024-01-15 15:29:23 - root - INFO: - 0.644743 * x011
+2024-01-15 15:29:23 - root - INFO: - -0.431813 * x002**3
+2024-01-15 15:29:23 - root - INFO: - -0.370240 * exp(x005)
+2024-01-15 15:29:23 - root - INFO: - 0.178928 * 1/x004
+2024-01-15 15:29:23 - root - INFO: - [AutoFeat] Final score: 0.8626
+2024-01-15 15:29:23 - root - INFO: - [AutoFeat] Computing 7 new features.
+2024-01-15 15:29:23 - root - INFO: - [AutoFeat]     7/    7 new features ...done.
+2024-01-15 15:29:24 - root - INFO: - housing_boston:reg
+2024-01-15 15:29:24 - root - INFO: - 5 fold rae:[0.48248305606900876, 0.3976398362892224, 0.6281135531135524, 0.17240977881257258, 0.46468796433878123]
+2024-01-15 15:29:24 - root - INFO: - Final rae:0.4290668377246275
+2024-01-15 15:29:24 - root - INFO: - ------------------------------------------------
+2024-01-15 15:48:47 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-15 15:48:47 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-15 15:48:47 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 91 features.
+2024-01-15 15:48:47 - root - INFO: - [AutoFeat] With 404 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-15 15:48:47 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-15 15:48:48 - root - INFO: - [feateng] Generated 59 transformed features from 13 original features - done.
+2024-01-15 15:48:48 - root - INFO: - [feateng] Generated altogether 59 new features in 1 steps
+2024-01-15 15:48:48 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-15 15:48:48 - root - INFO: - [feateng] Generated a total of 53 additional features
+2024-01-15 15:48:49 - root - INFO: - [featsel] 18 features after 2 feature selection runs
+2024-01-15 15:48:49 - root - INFO: - [featsel] 16 features after correlation filtering
+2024-01-15 15:48:49 - root - INFO: - [featsel] 12 features after noise filtering
+2024-01-15 15:48:49 - root - INFO: - [AutoFeat] Computing 5 new features.
+2024-01-15 15:48:50 - root - INFO: - [AutoFeat]     5/    5 new features ...done.
+2024-01-15 15:48:50 - root - INFO: - [AutoFeat] Final dataframe with 18 feature columns (5 new).
+2024-01-15 15:48:50 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-15 15:48:50 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-15 15:48:50 - root - INFO: - 20.09976789206627
+2024-01-15 15:48:50 - root - INFO: - -5.400066 * x012
+2024-01-15 15:48:50 - root - INFO: - 3.107435 * Abs(x005)
+2024-01-15 15:48:50 - root - INFO: - 1.978626 * x005
+2024-01-15 15:48:50 - root - INFO: - -1.671325 * x010
+2024-01-15 15:48:50 - root - INFO: - -1.327133 * x000
+2024-01-15 15:48:50 - root - INFO: - 1.191143 * x012**2
+2024-01-15 15:48:50 - root - INFO: - -1.086659 * x007
+2024-01-15 15:48:50 - root - INFO: - -0.745667 * x004**2
+2024-01-15 15:48:50 - root - INFO: - 0.640018 * x011
+2024-01-15 15:48:50 - root - INFO: - 0.580447 * x003
+2024-01-15 15:48:50 - root - INFO: - -0.273605 * x002**3
+2024-01-15 15:48:50 - root - INFO: - 0.185987 * 1/x004
+2024-01-15 15:48:50 - root - INFO: - [AutoFeat] Final score: 0.8556
+2024-01-15 15:48:50 - root - INFO: - [AutoFeat] Computing 5 new features.
+2024-01-15 15:48:50 - root - INFO: - [AutoFeat]     5/    5 new features ...done.
+2024-01-15 15:48:50 - root - INFO: - housing_boston:reg
+2024-01-15 15:48:50 - root - INFO: - 5 fold rae:[0.48141918258369365, 0.38570941336971354, 0.6159442409442402, 0.16154831199068698, 0.45072065378900505]
+2024-01-15 15:48:50 - root - INFO: - Final rae:0.4190683605354679
+2024-01-15 15:48:50 - root - INFO: - ------------------------------------------------
+2024-01-16 16:15:29 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-16 16:15:29 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-16 16:15:29 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 35 features.
+2024-01-16 16:15:29 - root - INFO: - [AutoFeat] With 1202 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-16 16:15:29 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-16 16:15:30 - root - INFO: - [feateng] Generated 25 transformed features from 5 original features - done.
+2024-01-16 16:15:30 - root - INFO: - [feateng] Generated altogether 25 new features in 1 steps
+2024-01-16 16:15:30 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-16 16:15:30 - root - INFO: - [feateng] Generated a total of 23 additional features
+2024-01-16 16:15:30 - root - INFO: - [featsel] 17 features after 2 feature selection runs
+2024-01-16 16:15:30 - root - INFO: - [featsel] 15 features after correlation filtering
+2024-01-16 16:15:30 - root - INFO: - [featsel] 15 features after noise filtering
+2024-01-16 16:15:30 - root - INFO: - [AutoFeat] Computing 10 new features.
+2024-01-16 16:15:31 - root - INFO: - [AutoFeat]    10/   10 new features ...done.
+2024-01-16 16:15:31 - root - INFO: - [AutoFeat] Final dataframe with 15 feature columns (10 new).
+2024-01-16 16:15:31 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-16 16:15:31 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-16 16:15:31 - root - INFO: - 127.02451221454974
+2024-01-16 16:15:31 - root - INFO: - -9.013312 * x001
+2024-01-16 16:15:31 - root - INFO: - -5.304561 * x000
+2024-01-16 16:15:31 - root - INFO: - 4.748315 * x004
+2024-01-16 16:15:31 - root - INFO: - -4.509082 * x002
+2024-01-16 16:15:31 - root - INFO: - -4.010890 * Abs(x004)
+2024-01-16 16:15:31 - root - INFO: - 1.695974 * x003
+2024-01-16 16:15:31 - root - INFO: - -1.545767 * x001**2
+2024-01-16 16:15:31 - root - INFO: - 1.327708 * x002**2
+2024-01-16 16:15:31 - root - INFO: - 1.275295 * Abs(x000)
+2024-01-16 16:15:31 - root - INFO: - 1.197907 * x001**3
+2024-01-16 16:15:31 - root - INFO: - -0.415680 * x002**3
+2024-01-16 16:15:31 - root - INFO: - -0.224817 * exp(x004)
+2024-01-16 16:15:31 - root - INFO: - -0.207484 * 1/x002
+2024-01-16 16:15:31 - root - INFO: - 0.070047 * x000**3
+2024-01-16 16:15:31 - root - INFO: - -0.050301 * 1/x001
+2024-01-16 16:15:31 - root - INFO: - [AutoFeat] Final score: 0.5624
+2024-01-16 16:15:31 - root - INFO: - [AutoFeat] Computing 10 new features.
+2024-01-16 16:15:31 - root - INFO: - [AutoFeat]    10/   10 new features ...done.
+2024-01-16 16:15:31 - root - INFO: - airfoil:reg
+2024-01-16 16:15:31 - root - INFO: - 5 fold rae:[0.4341657437772347, 0.4226610194004007, 0.5533317101680117, 0.5545643995571646, 0.5840672354274634]
+2024-01-16 16:15:31 - root - INFO: - Final rae:0.5097580216660551
+2024-01-16 16:15:31 - root - INFO: - ------------------------------------------------
+2024-01-20 20:43:52 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-20 20:43:52 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-20 20:43:52 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 308 features.
+2024-01-20 20:43:52 - root - INFO: - [AutoFeat] With 54 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-20 20:43:52 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-20 20:43:53 - root - INFO: - [feateng] Generated 220 transformed features from 44 original features - done.
+2024-01-20 20:43:53 - root - INFO: - [feateng] Generated altogether 220 new features in 1 steps
+2024-01-20 20:43:53 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-20 20:43:53 - root - INFO: - [feateng] Generated a total of 220 additional features
+2024-01-20 20:43:54 - root - INFO: - [featsel] 20 features after 2 feature selection runs
+2024-01-20 20:43:54 - root - INFO: - [featsel] 20 features after correlation filtering
+2024-01-20 20:43:54 - root - INFO: - [featsel] 11 features after noise filtering
+2024-01-20 20:43:54 - root - INFO: - [AutoFeat] Computing 11 new features.
+2024-01-20 20:43:55 - root - INFO: - [AutoFeat]    11/   11 new features ...done.
+2024-01-20 20:43:55 - root - INFO: - [AutoFeat] Final dataframe with 55 feature columns (11 new).
+2024-01-20 20:43:55 - root - INFO: - [AutoFeat] Training final classification model.
+2024-01-20 20:43:55 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-20 20:43:55 - root - INFO: - [15.34358941]
+2024-01-20 20:43:55 - root - INFO: - 1.736335 * exp(x042)
+2024-01-20 20:43:55 - root - INFO: - 1.705116 * exp(x039)
+2024-01-20 20:43:55 - root - INFO: - 1.556291 * exp(x029)
+2024-01-20 20:43:55 - root - INFO: - 1.325363 * exp(x009)
+2024-01-20 20:43:55 - root - INFO: - 0.977820 * exp(x027)
+2024-01-20 20:43:55 - root - INFO: - 0.671484 * exp(x011)
+2024-01-20 20:43:55 - root - INFO: - 0.319210 * 1/x041
+2024-01-20 20:43:55 - root - INFO: - 0.231047 * 1/x003
+2024-01-20 20:43:55 - root - INFO: - 0.165979 * 1/x009
+2024-01-20 20:43:55 - root - INFO: - 0.097506 * 1/x035
+2024-01-20 20:43:55 - root - INFO: - 0.091816 * 1/x017
+2024-01-20 20:43:55 - root - INFO: - [AutoFeat] Final score: 1.0000
+2024-01-20 20:43:55 - root - INFO: - [AutoFeat] Computing 11 new features.
+2024-01-20 20:43:55 - root - INFO: - [AutoFeat]    11/   11 new features ...done.
+2024-01-20 20:43:56 - root - INFO: - spectf:cls
+2024-01-20 20:43:56 - root - INFO: - 5 fold f1:[0.7749842866121935, 0.718816067653277, 0.78797402053216, 0.7243107769423559, 0.7601029601029601]
+2024-01-20 20:43:56 - root - INFO: - Final F1:0.7532376223685893
+2024-01-20 20:43:56 - root - INFO: - ------------------------------------------------
+2024-01-20 20:43:56 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-20 20:43:56 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-20 20:43:56 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 35 features.
+2024-01-20 20:43:56 - root - INFO: - [AutoFeat] With 301 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-20 20:43:56 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-20 20:43:56 - root - INFO: - [feateng] Generated 20 transformed features from 5 original features - done.
+2024-01-20 20:43:56 - root - INFO: - [feateng] Generated altogether 20 new features in 1 steps
+2024-01-20 20:43:56 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-20 20:43:56 - root - INFO: - [feateng] Generated a total of 18 additional features
+2024-01-20 20:43:57 - root - INFO: - [featsel] 6 features after 2 feature selection runs
+2024-01-20 20:43:57 - root - INFO: - [featsel] 6 features after correlation filtering
+2024-01-20 20:43:57 - root - INFO: - [featsel] 6 features after noise filtering
+2024-01-20 20:43:57 - root - INFO: - [AutoFeat] Computing 2 new features.
+2024-01-20 20:43:57 - root - INFO: - [AutoFeat]     2/    2 new features ...done.
+2024-01-20 20:43:57 - root - INFO: - [AutoFeat] Final dataframe with 7 feature columns (2 new).
+2024-01-20 20:43:57 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-20 20:43:57 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-20 20:43:57 - root - INFO: - 121.78724814912489
+2024-01-20 20:43:57 - root - INFO: - -5.946570 * x000
+2024-01-20 20:43:57 - root - INFO: - 1.203224 * x003
+2024-01-20 20:43:57 - root - INFO: - 0.879686 * Abs(x004)
+2024-01-20 20:43:57 - root - INFO: - -0.570124 * x002
+2024-01-20 20:43:57 - root - INFO: - -0.491932 * x004
+2024-01-20 20:43:57 - root - INFO: - 0.150051 * x000**3
+2024-01-20 20:43:57 - root - INFO: - [AutoFeat] Final score: 0.7998
+2024-01-20 20:43:57 - root - INFO: - [AutoFeat] Computing 2 new features.
+2024-01-20 20:43:57 - root - INFO: - [AutoFeat]     2/    2 new features ...done.
+2024-01-20 20:43:58 - root - INFO: - airfoil:reg
+2024-01-20 20:43:58 - root - INFO: - 5 fold rae:[0.769007988541868, 0.7604066082553278, 0.7785068408871966, 0.7737818974042016, 0.7750866943400799]
+2024-01-20 20:43:58 - root - INFO: - Final rae:0.7713580058857348
+2024-01-20 20:43:58 - root - INFO: - ------------------------------------------------
+2024-01-20 20:45:15 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-20 20:45:15 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-20 20:45:15 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 91 features.
+2024-01-20 20:45:15 - root - INFO: - [AutoFeat] With 102 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-20 20:45:15 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-20 20:45:16 - root - INFO: - [feateng] Generated 60 transformed features from 13 original features - done.
+2024-01-20 20:45:16 - root - INFO: - [feateng] Generated altogether 60 new features in 1 steps
+2024-01-20 20:45:16 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-20 20:45:16 - root - INFO: - [feateng] Generated a total of 59 additional features
+2024-01-20 20:45:24 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-20 20:45:24 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-20 20:45:24 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 91 features.
+2024-01-20 20:45:24 - root - INFO: - [AutoFeat] With 102 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-20 20:45:24 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-20 20:45:25 - root - INFO: - [feateng] Generated 60 transformed features from 13 original features - done.
+2024-01-20 20:45:25 - root - INFO: - [feateng] Generated altogether 60 new features in 1 steps
+2024-01-20 20:45:25 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-20 20:45:25 - root - INFO: - [feateng] Generated a total of 59 additional features
+2024-01-20 20:46:06 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-20 20:46:06 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-20 20:46:06 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 91 features.
+2024-01-20 20:46:06 - root - INFO: - [AutoFeat] With 102 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-20 20:46:06 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-20 20:46:07 - root - INFO: - [feateng] Generated 60 transformed features from 13 original features - done.
+2024-01-20 20:46:07 - root - INFO: - [feateng] Generated altogether 60 new features in 1 steps
+2024-01-20 20:46:07 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-20 20:46:07 - root - INFO: - [feateng] Generated a total of 59 additional features
+2024-01-20 20:55:41 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-20 20:55:41 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-20 20:55:41 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 91 features.
+2024-01-20 20:55:41 - root - INFO: - [AutoFeat] With 405 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-20 20:55:41 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-20 20:55:42 - root - INFO: - [feateng] Generated 59 transformed features from 13 original features - done.
+2024-01-20 20:55:42 - root - INFO: - [feateng] Generated altogether 59 new features in 1 steps
+2024-01-20 20:55:42 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-20 20:55:42 - root - INFO: - [feateng] Generated a total of 55 additional features
+2024-01-20 20:55:43 - root - INFO: - [featsel] 31 features after 2 feature selection runs
+2024-01-20 20:55:43 - root - INFO: - [featsel] 25 features after correlation filtering
+2024-01-20 20:55:43 - root - INFO: - [featsel] 8 features after noise filtering
+2024-01-20 20:55:43 - root - INFO: - [AutoFeat] Computing 3 new features.
+2024-01-20 20:55:43 - root - INFO: - [AutoFeat]     3/    3 new features ...done.
+2024-01-20 20:55:43 - root - INFO: - [AutoFeat] Final dataframe with 16 feature columns (3 new).
+2024-01-20 20:55:43 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-20 20:55:43 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-20 20:55:43 - root - INFO: - 20.755962307427254
+2024-01-20 20:55:43 - root - INFO: - -5.786325 * x012
+2024-01-20 20:55:43 - root - INFO: - 3.470322 * Abs(x005)
+2024-01-20 20:55:43 - root - INFO: - 2.570411 * x005
+2024-01-20 20:55:43 - root - INFO: - -1.665448 * x007
+2024-01-20 20:55:43 - root - INFO: - -1.239351 * x010
+2024-01-20 20:55:43 - root - INFO: - -1.176584 * x000
+2024-01-20 20:55:43 - root - INFO: - 1.037602 * x012**2
+2024-01-20 20:55:43 - root - INFO: - -0.184450 * x004**3
+2024-01-20 20:55:43 - root - INFO: - [AutoFeat] Final score: 0.8085
+2024-01-20 20:55:43 - root - INFO: - [AutoFeat] Computing 3 new features.
+2024-01-20 20:55:43 - root - INFO: - [AutoFeat]     3/    3 new features ...done.
+2024-01-20 20:55:43 - root - INFO: - housing_boston:reg
+2024-01-20 20:55:43 - root - INFO: - 5 fold rae:[0.4312361331220278, 0.12690937257939605, 0.34284426123921175, 0.5377115308933496, 0.5329259166874528]
+2024-01-20 20:55:43 - root - INFO: - Final rae:0.39432544290428756
+2024-01-20 20:55:43 - root - INFO: - ------------------------------------------------
+2024-01-20 20:58:14 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-20 20:58:14 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-20 20:58:14 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 91 features.
+2024-01-20 20:58:14 - root - INFO: - [AutoFeat] With 405 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-20 20:58:14 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-20 20:58:15 - root - INFO: - [feateng] Generated 59 transformed features from 13 original features - done.
+2024-01-20 20:58:15 - root - INFO: - [feateng] Generated altogether 59 new features in 1 steps
+2024-01-20 20:58:15 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-20 20:58:15 - root - INFO: - [feateng] Generated a total of 55 additional features
+2024-01-20 20:58:16 - root - INFO: - [featsel] 24 features after 2 feature selection runs
+2024-01-20 20:58:16 - root - INFO: - [featsel] 21 features after correlation filtering
+2024-01-20 20:58:16 - root - INFO: - [featsel] 10 features after noise filtering
+2024-01-20 20:58:16 - root - INFO: - [AutoFeat] Computing 4 new features.
+2024-01-20 20:58:17 - root - INFO: - [AutoFeat]     4/    4 new features ...done.
+2024-01-20 20:58:17 - root - INFO: - [AutoFeat] Final dataframe with 17 feature columns (4 new).
+2024-01-20 20:58:17 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-20 20:58:17 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-20 20:58:17 - root - INFO: - 21.23980538103582
+2024-01-20 20:58:17 - root - INFO: - -5.025442 * x012
+2024-01-20 20:58:17 - root - INFO: - 3.205144 * Abs(x005)
+2024-01-20 20:58:17 - root - INFO: - 2.670262 * x005
+2024-01-20 20:58:17 - root - INFO: - -1.122515 * x010
+2024-01-20 20:58:17 - root - INFO: - -1.013631 * x007
+2024-01-20 20:58:17 - root - INFO: - -0.792800 * x000
+2024-01-20 20:58:17 - root - INFO: - 0.727939 * x012**2
+2024-01-20 20:58:17 - root - INFO: - 0.529426 * x003
+2024-01-20 20:58:17 - root - INFO: - -0.166329 * x004**3
+2024-01-20 20:58:17 - root - INFO: - [AutoFeat] Final score: 0.8060
+2024-01-20 20:58:17 - root - INFO: - [AutoFeat] Computing 4 new features.
+2024-01-20 20:58:17 - root - INFO: - [AutoFeat]     4/    4 new features ...done.
+2024-01-20 20:58:17 - root - INFO: - housing_boston:reg
+2024-01-20 20:58:17 - root - INFO: - 5 fold rae:[0.4342076069730578, 0.12759101471727363, 0.31478809738503155, 0.52943722943723, 0.5291718633075573]
+2024-01-20 20:58:17 - root - INFO: - Final rae:0.3870391623640301
+2024-01-20 20:58:17 - root - INFO: - ------------------------------------------------
+2024-01-21 01:50:49 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-21 01:50:49 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-21 01:50:49 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 308 features.
+2024-01-21 01:50:49 - root - INFO: - [AutoFeat] With 214 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-21 01:50:49 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-21 01:50:50 - root - INFO: - [feateng] Generated 219 transformed features from 44 original features - done.
+2024-01-21 01:50:50 - root - INFO: - [feateng] Generated altogether 219 new features in 1 steps
+2024-01-21 01:50:50 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-21 01:50:50 - root - INFO: - [feateng] Generated a total of 219 additional features
+2024-01-21 01:50:53 - root - INFO: - [featsel] 9 features after 2 feature selection runs
+2024-01-21 01:50:53 - root - INFO: - [featsel] 9 features after correlation filtering
+2024-01-21 01:50:53 - root - INFO: - [featsel] 0 features after noise filtering
+2024-01-21 01:50:53 - root - WARNING: - [featsel] Not a single good features was found...
+2024-01-21 01:50:53 - root - INFO: - [AutoFeat] Final dataframe with 44 feature columns (0 new).
+2024-01-21 01:50:53 - root - INFO: - [AutoFeat] Training final classification model.
+2024-01-21 01:50:53 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-21 01:50:53 - root - INFO: - [5.08069551]
+2024-01-21 01:50:53 - root - INFO: - 2.106907 * x039
+2024-01-21 01:50:53 - root - INFO: - 1.965373 * x025
+2024-01-21 01:50:53 - root - INFO: - 1.746997 * x016
+2024-01-21 01:50:53 - root - INFO: - 1.600029 * x035
+2024-01-21 01:50:53 - root - INFO: - 1.454697 * x021
+2024-01-21 01:50:53 - root - INFO: - 1.403249 * x015
+2024-01-21 01:50:53 - root - INFO: - 1.370388 * x009
+2024-01-21 01:50:53 - root - INFO: - 1.349638 * x013
+2024-01-21 01:50:53 - root - INFO: - 1.290328 * x032
+2024-01-21 01:50:53 - root - INFO: - 1.236815 * x029
+2024-01-21 01:50:53 - root - INFO: - 1.226079 * x031
+2024-01-21 01:50:53 - root - INFO: - 1.172350 * x042
+2024-01-21 01:50:53 - root - INFO: - 1.069956 * x027
+2024-01-21 01:50:53 - root - INFO: - 1.051368 * x014
+2024-01-21 01:50:53 - root - INFO: - 1.020014 * x008
+2024-01-21 01:50:53 - root - INFO: - 0.987046 * x034
+2024-01-21 01:50:53 - root - INFO: - 0.863576 * x003
+2024-01-21 01:50:53 - root - INFO: - 0.862083 * x026
+2024-01-21 01:50:53 - root - INFO: - 0.785931 * x012
+2024-01-21 01:50:53 - root - INFO: - 0.783494 * x033
+2024-01-21 01:50:53 - root - INFO: - 0.754797 * x043
+2024-01-21 01:50:53 - root - INFO: - 0.728023 * x001
+2024-01-21 01:50:53 - root - INFO: - 0.727688 * x020
+2024-01-21 01:50:53 - root - INFO: - 0.643449 * x010
+2024-01-21 01:50:53 - root - INFO: - 0.490323 * x007
+2024-01-21 01:50:53 - root - INFO: - 0.455786 * x030
+2024-01-21 01:50:53 - root - INFO: - 0.436815 * x000
+2024-01-21 01:50:53 - root - INFO: - 0.369335 * x005
+2024-01-21 01:50:53 - root - INFO: - 0.349137 * x037
+2024-01-21 01:50:53 - root - INFO: - 0.347840 * x038
+2024-01-21 01:50:53 - root - INFO: - 0.320632 * x006
+2024-01-21 01:50:53 - root - INFO: - 0.302219 * x004
+2024-01-21 01:50:53 - root - INFO: - 0.300296 * x011
+2024-01-21 01:50:53 - root - INFO: - 0.243157 * x024
+2024-01-21 01:50:53 - root - INFO: - 0.231755 * x028
+2024-01-21 01:50:53 - root - INFO: - 0.224363 * x002
+2024-01-21 01:50:53 - root - INFO: - 0.222977 * x019
+2024-01-21 01:50:53 - root - INFO: - 0.211541 * x022
+2024-01-21 01:50:53 - root - INFO: - 0.195985 * x041
+2024-01-21 01:50:53 - root - INFO: - 0.125162 * x018
+2024-01-21 01:50:53 - root - INFO: - 0.099713 * x040
+2024-01-21 01:50:53 - root - INFO: - 0.097073 * x017
+2024-01-21 01:50:53 - root - INFO: - 0.087542 * x023
+2024-01-21 01:50:53 - root - INFO: - 0.065600 * x036
+2024-01-21 01:50:53 - root - INFO: - [AutoFeat] Final score: 0.8972
+2024-01-21 01:50:53 - root - INFO: - spectf:cls
+2024-01-21 01:50:53 - root - INFO: - 5 fold f1:[0.6124401913875599, 0.6124401913875599, 0.7828282828282828, 0.6799999999999999, 0.525]
+2024-01-21 01:50:53 - root - INFO: - Final F1:0.6425417331206804
+2024-01-21 01:50:53 - root - INFO: - ------------------------------------------------
+2024-01-21 19:36:09 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-21 19:36:09 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-21 19:36:09 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 35 features.
+2024-01-21 19:36:09 - root - INFO: - [AutoFeat] With 1203 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-21 19:36:09 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-21 19:36:11 - root - INFO: - [feateng] Generated 25 transformed features from 5 original features - done.
+2024-01-21 19:36:11 - root - INFO: - [feateng] Generated altogether 25 new features in 1 steps
+2024-01-21 19:36:11 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-21 19:36:11 - root - INFO: - [feateng] Generated a total of 23 additional features
+2024-01-21 19:36:12 - root - INFO: - [featsel] 22 features after 2 feature selection runs
+2024-01-21 19:36:12 - root - INFO: - [featsel] 14 features after correlation filtering
+2024-01-21 19:36:12 - root - INFO: - [featsel] 9 features after noise filtering
+2024-01-21 19:36:12 - root - INFO: - [AutoFeat] Computing 5 new features.
+2024-01-21 19:36:12 - root - INFO: - [AutoFeat]     5/    5 new features ...done.
+2024-01-21 19:36:12 - root - INFO: - [AutoFeat] Final dataframe with 10 feature columns (5 new).
+2024-01-21 19:36:12 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-21 19:36:12 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-21 19:36:12 - root - INFO: - 125.45272328929109
+2024-01-21 19:36:12 - root - INFO: - -4.694974 * x000
+2024-01-21 19:36:12 - root - INFO: - -3.682664 * x002
+2024-01-21 19:36:12 - root - INFO: - -3.304239 * x001
+2024-01-21 19:36:12 - root - INFO: - 1.394068 * x003
+2024-01-21 19:36:12 - root - INFO: - -0.437304 * x001**2
+2024-01-21 19:36:12 - root - INFO: - 0.100586 * x000**3
+2024-01-21 19:36:12 - root - INFO: - -0.089512 * 1/x002
+2024-01-21 19:36:12 - root - INFO: - -0.088986 * x004**3
+2024-01-21 19:36:12 - root - INFO: - [AutoFeat] Final score: 0.5397
+2024-01-21 19:36:12 - root - INFO: - [AutoFeat] Computing 5 new features.
+2024-01-21 19:36:12 - root - INFO: - [AutoFeat]     5/    5 new features ...done.
+2024-01-21 19:36:13 - root - INFO: - airfoil:reg
+2024-01-21 19:36:13 - root - INFO: - 5 fold rae:[0.7670950707179786, 0.7319427475102726, 0.7139225306307475, 0.7786379684239687, 0.7278208176483993]
+2024-01-21 19:36:13 - root - INFO: - Final rae:0.7438838269862733
+2024-01-21 19:36:13 - root - INFO: - ------------------------------------------------
+2024-01-21 19:36:40 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-21 19:36:40 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-21 19:36:40 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 350 features.
+2024-01-21 19:36:40 - root - INFO: - [AutoFeat] With 400 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-21 19:36:40 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-21 19:36:42 - root - INFO: - [feateng] Generated 250 transformed features from 50 original features - done.
+2024-01-21 19:36:42 - root - INFO: - [feateng] Generated altogether 250 new features in 1 steps
+2024-01-21 19:36:42 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-21 19:36:42 - root - INFO: - [feateng] Generated a total of 250 additional features
+2024-01-21 19:36:43 - root - INFO: - [featsel] 17 features after 2 feature selection runs
+2024-01-21 19:36:43 - root - INFO: - [featsel] 15 features after correlation filtering
+2024-01-21 19:36:43 - root - INFO: - [featsel] 8 features after noise filtering
+2024-01-21 19:36:43 - root - INFO: - [AutoFeat] Computing 5 new features.
+2024-01-21 19:36:44 - root - INFO: - [AutoFeat]     5/    5 new features ...done.
+2024-01-21 19:36:44 - root - INFO: - [AutoFeat] Final dataframe with 55 feature columns (5 new).
+2024-01-21 19:36:44 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-21 19:36:44 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-21 19:36:44 - root - INFO: - 0.029281587932737687
+2024-01-21 19:36:44 - root - INFO: - -0.758982 * x000
+2024-01-21 19:36:44 - root - INFO: - -0.435865 * Abs(x001)
+2024-01-21 19:36:44 - root - INFO: - 0.429025 * x003
+2024-01-21 19:36:44 - root - INFO: - -0.298706 * x002
+2024-01-21 19:36:44 - root - INFO: - 0.279369 * x000**3
+2024-01-21 19:36:44 - root - INFO: - 0.145765 * x002**2
+2024-01-21 19:36:44 - root - INFO: - 0.115012 * x022**2
+2024-01-21 19:36:44 - root - INFO: - 0.077278 * x004**3
+2024-01-21 19:36:44 - root - INFO: - [AutoFeat] Final score: 0.5595
+2024-01-21 19:36:44 - root - INFO: - [AutoFeat] Computing 5 new features.
+2024-01-21 19:36:44 - root - INFO: - [AutoFeat]     5/    5 new features ...done.
+2024-01-21 19:36:45 - root - INFO: - openml_616:reg
+2024-01-21 19:36:45 - root - INFO: - 5 fold rae:[0.2223484404846766, 0.3223414011673349, 0.35369210364001213, 0.3191848110316944, 0.4938934674959051]
+2024-01-21 19:36:45 - root - INFO: - Final rae:0.3422920447639246
+2024-01-21 19:36:45 - root - INFO: - ------------------------------------------------
+2024-01-21 19:37:02 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-21 19:37:02 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-21 19:37:02 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 350 features.
+2024-01-21 19:37:02 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-21 19:37:02 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-21 19:37:03 - root - INFO: - [feateng] Generated 250 transformed features from 50 original features - done.
+2024-01-21 19:37:03 - root - INFO: - [feateng] Generated altogether 250 new features in 1 steps
+2024-01-21 19:37:03 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-21 19:37:03 - root - INFO: - [feateng] Generated a total of 250 additional features
+2024-01-21 19:37:05 - root - INFO: - [featsel] 13 features after 2 feature selection runs
+2024-01-21 19:37:05 - root - INFO: - [featsel] 12 features after correlation filtering
+2024-01-21 19:37:05 - root - INFO: - [featsel] 11 features after noise filtering
+2024-01-21 19:37:05 - root - INFO: - [AutoFeat] Computing 7 new features.
+2024-01-21 19:37:05 - root - INFO: - [AutoFeat]     7/    7 new features ...done.
+2024-01-21 19:37:05 - root - INFO: - [AutoFeat] Final dataframe with 57 feature columns (7 new).
+2024-01-21 19:37:05 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-21 19:37:05 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-21 19:37:05 - root - INFO: - -0.14518590390972352
+2024-01-21 19:37:05 - root - INFO: - -0.786024 * x000
+2024-01-21 19:37:05 - root - INFO: - 0.334665 * x003
+2024-01-21 19:37:05 - root - INFO: - 0.325330 * x000**3
+2024-01-21 19:37:05 - root - INFO: - -0.302881 * Abs(x001)
+2024-01-21 19:37:05 - root - INFO: - -0.167418 * x001
+2024-01-21 19:37:05 - root - INFO: - 0.148965 * x000**2
+2024-01-21 19:37:05 - root - INFO: - 0.147753 * Abs(x049)
+2024-01-21 19:37:05 - root - INFO: - 0.125355 * x004**2
+2024-01-21 19:37:05 - root - INFO: - 0.117941 * x002**2
+2024-01-21 19:37:05 - root - INFO: - 0.078239 * x040
+2024-01-21 19:37:05 - root - INFO: - -0.067596 * x013**2
+2024-01-21 19:37:05 - root - INFO: - [AutoFeat] Final score: 0.5991
+2024-01-21 19:37:05 - root - INFO: - [AutoFeat] Computing 7 new features.
+2024-01-21 19:37:05 - root - INFO: - [AutoFeat]     7/    7 new features ...done.
+2024-01-21 19:37:06 - root - INFO: - openml_618:reg
+2024-01-21 19:37:06 - root - INFO: - 5 fold rae:[0.31638020093293373, 0.47764919097124914, 0.38144849777063483, 0.4839942741130304, 0.5223562800458089]
+2024-01-21 19:37:06 - root - INFO: - Final rae:0.43636568876673143
+2024-01-21 19:37:06 - root - INFO: - ------------------------------------------------
+2024-01-21 19:37:27 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-21 19:37:27 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-21 19:37:27 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 350 features.
+2024-01-21 19:37:27 - root - INFO: - [AutoFeat] With 400 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-21 19:37:27 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-21 19:37:29 - root - INFO: - [feateng] Generated 250 transformed features from 50 original features - done.
+2024-01-21 19:37:29 - root - INFO: - [feateng] Generated altogether 250 new features in 1 steps
+2024-01-21 19:37:29 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-21 19:37:29 - root - INFO: - [feateng] Generated a total of 250 additional features
+2024-01-21 19:37:30 - root - INFO: - [featsel] 15 features after 2 feature selection runs
+2024-01-21 19:37:30 - root - INFO: - [featsel] 12 features after correlation filtering
+2024-01-21 19:37:30 - root - INFO: - [featsel] 10 features after noise filtering
+2024-01-21 19:37:30 - root - INFO: - [AutoFeat] Computing 6 new features.
+2024-01-21 19:37:31 - root - INFO: - [AutoFeat]     6/    6 new features ...done.
+2024-01-21 19:37:31 - root - INFO: - [AutoFeat] Final dataframe with 56 feature columns (6 new).
+2024-01-21 19:37:31 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-21 19:37:31 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-21 19:37:31 - root - INFO: - 0.02808933639150242
+2024-01-21 19:37:31 - root - INFO: - -1.091561 * x000
+2024-01-21 19:37:31 - root - INFO: - 0.441245 * x000**3
+2024-01-21 19:37:31 - root - INFO: - 0.374075 * x003
+2024-01-21 19:37:31 - root - INFO: - 0.245931 * x004
+2024-01-21 19:37:31 - root - INFO: - 0.202345 * x002**2
+2024-01-21 19:37:31 - root - INFO: - -0.188028 * x001**2
+2024-01-21 19:37:31 - root - INFO: - -0.102749 * x025**2
+2024-01-21 19:37:31 - root - INFO: - 0.085800 * x015**2
+2024-01-21 19:37:31 - root - INFO: - -0.050554 * x001
+2024-01-21 19:37:31 - root - INFO: - 0.002401 * 1/x031
+2024-01-21 19:37:31 - root - INFO: - [AutoFeat] Final score: 0.5623
+2024-01-21 19:37:31 - root - INFO: - [AutoFeat] Computing 6 new features.
+2024-01-21 19:37:31 - root - INFO: - [AutoFeat]     6/    6 new features ...done.
+2024-01-21 19:37:32 - root - INFO: - openml_637:reg
+2024-01-21 19:37:32 - root - INFO: - 5 fold rae:[0.3790449703292359, 0.3273778850829381, 0.3510302845675505, 0.33582758778865385, 0.434123810421423]
+2024-01-21 19:37:32 - root - INFO: - Final rae:0.36548090763796026
+2024-01-21 19:37:32 - root - INFO: - ------------------------------------------------
+2024-01-21 19:38:05 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-21 19:38:05 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-21 19:38:05 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 76552 features.
+2024-01-21 19:38:05 - root - INFO: - [AutoFeat] With 220 data points this new feature matrix would use about 0.07 gb of space.
+2024-01-21 19:38:06 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-21 19:38:19 - root - INFO: - [feateng] Generated 53556 transformed features from 10936 original features - done.
+2024-01-21 19:38:19 - root - INFO: - [feateng] Generated altogether 53556 new features in 1 steps
+2024-01-21 19:38:19 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-21 19:38:28 - root - INFO: - [feateng] Generated a total of 52200 additional features
+2024-01-21 19:39:01 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-21 19:39:01 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-21 19:39:01 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 196 features.
+2024-01-21 19:39:01 - root - INFO: - [AutoFeat] With 40000 data points this new feature matrix would use about 0.03 gb of space.
+2024-01-21 19:39:01 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-21 19:39:03 - root - INFO: - [feateng] Generated 128 transformed features from 28 original features - done.
+2024-01-21 19:39:03 - root - INFO: - [feateng] Generated altogether 128 new features in 1 steps
+2024-01-21 19:39:03 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-21 19:39:03 - root - INFO: - [feateng] Generated a total of 120 additional features
+2024-01-21 19:57:16 - root - INFO: - [featsel] 70 features after 2 feature selection runs
+2024-01-21 19:57:17 - root - INFO: - [featsel] 57 features after correlation filtering
+2024-01-21 20:00:36 - root - INFO: - [featsel] 49 features after noise filtering
+2024-01-21 20:00:36 - root - INFO: - [AutoFeat] Computing 33 new features.
+2024-01-21 20:00:38 - root - INFO: - [AutoFeat]    33/   33 new features ...done.
+2024-01-21 20:00:38 - root - INFO: - [AutoFeat] Final dataframe with 61 feature columns (33 new).
+2024-01-21 20:00:38 - root - INFO: - [AutoFeat] Training final classification model.
+2024-01-21 20:00:45 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-21 20:00:45 - root - INFO: - [1.09169163]
+2024-01-21 20:00:45 - root - INFO: - 1.433453 * Abs(x025)
+2024-01-21 20:00:45 - root - INFO: - 1.377957 * x027
+2024-01-21 20:00:45 - root - INFO: - 1.142237 * Abs(x026)
+2024-01-21 20:00:45 - root - INFO: - 1.049750 * x026
+2024-01-21 20:00:45 - root - INFO: - 0.529400 * Abs(x027)
+2024-01-21 20:00:45 - root - INFO: - 0.515761 * Abs(x005)
+2024-01-21 20:00:45 - root - INFO: - 0.513461 * x025
+2024-01-21 20:00:45 - root - INFO: - 0.416455 * x025**2
+2024-01-21 20:00:45 - root - INFO: - 0.380434 * x005
+2024-01-21 20:00:45 - root - INFO: - 0.363901 * Abs(x024)
+2024-01-21 20:00:45 - root - INFO: - 0.311574 * Abs(x022)
+2024-01-21 20:00:45 - root - INFO: - 0.292054 * x022
+2024-01-21 20:00:45 - root - INFO: - 0.279983 * x005**2
+2024-01-21 20:00:45 - root - INFO: - 0.192987 * x024
+2024-01-21 20:00:45 - root - INFO: - 0.186646 * Abs(x021)
+2024-01-21 20:00:45 - root - INFO: - 0.156095 * x012
+2024-01-21 20:00:45 - root - INFO: - 0.151735 * x023
+2024-01-21 20:00:45 - root - INFO: - 0.147601 * x016
+2024-01-21 20:00:45 - root - INFO: - 0.143287 * x003
+2024-01-21 20:00:45 - root - INFO: - 0.120672 * x008
+2024-01-21 20:00:45 - root - INFO: - 0.088375 * x020
+2024-01-21 20:00:45 - root - INFO: - 0.086447 * Abs(x014)
+2024-01-21 20:00:45 - root - INFO: - 0.076339 * Abs(x013)
+2024-01-21 20:00:45 - root - INFO: - 0.076041 * x009
+2024-01-21 20:00:45 - root - INFO: - 0.069939 * x024**2
+2024-01-21 20:00:45 - root - INFO: - 0.068250 * Abs(x000)
+2024-01-21 20:00:45 - root - INFO: - 0.065423 * x027**2
+2024-01-21 20:00:45 - root - INFO: - 0.062783 * x003**2
+2024-01-21 20:00:45 - root - INFO: - 0.061812 * x000**2
+2024-01-21 20:00:45 - root - INFO: - 0.050662 * x000
+2024-01-21 20:00:45 - root - INFO: - 0.050456 * x017
+2024-01-21 20:00:45 - root - INFO: - 0.049799 * Abs(x018)
+2024-01-21 20:00:45 - root - INFO: - 0.038095 * x005**3
+2024-01-21 20:00:45 - root - INFO: - 0.037460 * 1/x020
+2024-01-21 20:00:45 - root - INFO: - 0.036908 * x013
+2024-01-21 20:00:45 - root - INFO: - 0.036194 * 1/x016
+2024-01-21 20:00:45 - root - INFO: - 0.032185 * x009**2
+2024-01-21 20:00:45 - root - INFO: - 0.031907 * x010**2
+2024-01-21 20:00:45 - root - INFO: - 0.027239 * x026**2
+2024-01-21 20:00:45 - root - INFO: - 0.026691 * x025**3
+2024-01-21 20:00:45 - root - INFO: - 0.020853 * x021**2
+2024-01-21 20:00:45 - root - INFO: - 0.015176 * 1/x008
+2024-01-21 20:00:45 - root - INFO: - 0.012950 * 1/x012
+2024-01-21 20:00:45 - root - INFO: - 0.012568 * x023**2
+2024-01-21 20:00:45 - root - INFO: - 0.005832 * x009**3
+2024-01-21 20:00:45 - root - INFO: - 0.004643 * x018**3
+2024-01-21 20:00:45 - root - INFO: - 0.003753 * exp(x014)
+2024-01-21 20:00:45 - root - INFO: - 0.000607 * exp(x003)
+2024-01-21 20:00:45 - root - INFO: - 0.000381 * 1/x004
+2024-01-21 20:00:45 - root - INFO: - [AutoFeat] Final score: 0.6807
+2024-01-21 20:00:45 - root - INFO: - [AutoFeat] Computing 33 new features.
+2024-01-21 20:00:45 - root - INFO: - [AutoFeat]    33/   33 new features ...done.
+2024-01-21 20:01:05 - root - INFO: - higgs:cls
+2024-01-21 20:01:05 - root - INFO: - 5 fold f1:[0.6921494230590591, 0.6979101157940883, 0.6802891321722719, 0.6907670700174212, 0.7012970056499591]
+2024-01-21 20:01:05 - root - INFO: - Final F1:0.6924825493385599
+2024-01-21 20:01:05 - root - INFO: - ------------------------------------------------
+2024-01-21 20:03:40 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-21 20:03:40 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-21 20:03:40 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 168 features.
+2024-01-21 20:03:40 - root - INFO: - [AutoFeat] With 24000 data points this new feature matrix would use about 0.02 gb of space.
+2024-01-21 20:03:40 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-21 20:03:41 - root - INFO: - [feateng] Generated 103 transformed features from 24 original features - done.
+2024-01-21 20:03:41 - root - INFO: - [feateng] Generated altogether 103 new features in 1 steps
+2024-01-21 20:03:41 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-21 20:03:41 - root - INFO: - [feateng] Generated a total of 96 additional features
+2024-01-21 20:08:50 - root - INFO: - [featsel] 7 features after 2 feature selection runs
+2024-01-21 20:08:50 - root - INFO: - [featsel] 7 features after correlation filtering
+2024-01-21 20:08:51 - root - INFO: - [featsel] 7 features after noise filtering
+2024-01-21 20:08:51 - root - INFO: - [AutoFeat] Computing 4 new features.
+2024-01-21 20:08:51 - root - INFO: - [AutoFeat]     4/    4 new features ...done.
+2024-01-21 20:08:51 - root - INFO: - [AutoFeat] Final dataframe with 28 feature columns (4 new).
+2024-01-21 20:08:51 - root - INFO: - [AutoFeat] Training final classification model.
+2024-01-21 20:08:52 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-21 20:08:52 - root - INFO: - [-0.35527695]
+2024-01-21 20:08:52 - root - INFO: - 0.462636 * x006
+2024-01-21 20:08:52 - root - INFO: - 0.298446 * Abs(x006)
+2024-01-21 20:08:52 - root - INFO: - 0.235191 * x008
+2024-01-21 20:08:52 - root - INFO: - 0.204201 * Abs(x010)
+2024-01-21 20:08:52 - root - INFO: - 0.188855 * Abs(x011)
+2024-01-21 20:08:52 - root - INFO: - 0.094916 * x007
+2024-01-21 20:08:52 - root - INFO: - 0.001578 * 1/x006
+2024-01-21 20:08:52 - root - INFO: - [AutoFeat] Final score: 0.7710
+2024-01-21 20:08:52 - root - INFO: - [AutoFeat] Computing 4 new features.
+2024-01-21 20:08:52 - root - INFO: - [AutoFeat]     4/    4 new features ...done.
+2024-01-21 20:08:57 - root - INFO: - uci_credit_card:cls
+2024-01-21 20:08:57 - root - INFO: - 5 fold f1:[0.8124689711934158, 0.8183867239429353, 0.806662736793215, 0.8112988130094548, 0.776748940994276]
+2024-01-21 20:08:57 - root - INFO: - Final F1:0.8051132371866594
+2024-01-21 20:08:57 - root - INFO: - ------------------------------------------------
+2024-01-21 20:16:05 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-21 20:16:05 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-21 20:16:05 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-01-21 20:16:05 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-21 20:16:05 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-21 20:16:06 - root - INFO: - [feateng] Generated 54 transformed features from 11 original features - done.
+2024-01-21 20:16:06 - root - INFO: - [feateng] Generated altogether 54 new features in 1 steps
+2024-01-21 20:16:06 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-21 20:16:06 - root - INFO: - [feateng] Generated a total of 54 additional features
+2024-01-21 20:16:06 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-01-21 20:16:06 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-21 20:16:09 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-21 20:16:09 - root - INFO: - [AutoFeat] Final dataframe with 64 feature columns (53 new).
+2024-01-21 20:16:09 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-01-21 20:16:09 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-21 20:16:09 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-21 20:16:09 - root - INFO: - wine_red:cls
+2024-01-21 20:16:09 - root - INFO: - 5 fold f1:[0.7136389360498019, 0.4857115749525617, 0.6324372759856631, 0.765877192982456, 0.7138653772594866]
+2024-01-21 20:16:09 - root - INFO: - Final F1:0.6623060714459938
+2024-01-21 20:16:09 - root - INFO: - ------------------------------------------------
+2024-01-21 20:17:37 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-21 20:17:37 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-21 20:17:37 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-01-21 20:17:37 - root - INFO: - [AutoFeat] With 3919 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-21 20:17:37 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-21 20:17:38 - root - INFO: - [feateng] Generated 51 transformed features from 11 original features - done.
+2024-01-21 20:17:38 - root - INFO: - [feateng] Generated altogether 51 new features in 1 steps
+2024-01-21 20:17:38 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-21 20:17:38 - root - INFO: - [feateng] Generated a total of 51 additional features
+2024-01-21 20:17:38 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-01-21 20:17:38 - root - INFO: - [AutoFeat] Computing 51 new features.
+2024-01-21 20:17:40 - root - INFO: - [AutoFeat]    51/   51 new features ...done.
+2024-01-21 20:17:40 - root - INFO: - [AutoFeat] Final dataframe with 62 feature columns (51 new).
+2024-01-21 20:17:40 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-01-21 20:17:40 - root - INFO: - [AutoFeat] Computing 51 new features.
+2024-01-21 20:17:40 - root - INFO: - [AutoFeat]    51/   51 new features ...done.
+2024-01-21 20:17:41 - root - INFO: - wine_white:cls
+2024-01-21 20:17:41 - root - INFO: - 5 fold f1:[0.7584533927022064, 0.7116213841159564, 0.7062935080792223, 0.6771117599122799, 0.7211095500376601]
+2024-01-21 20:17:41 - root - INFO: - Final F1:0.714917918969465
+2024-01-21 20:17:41 - root - INFO: - ------------------------------------------------
+2024-01-21 20:40:47 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-21 20:40:47 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-21 20:40:47 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-01-21 20:40:47 - root - INFO: - [AutoFeat] With 3919 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-21 20:40:47 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-21 20:40:48 - root - INFO: - [feateng] Generated 51 transformed features from 11 original features - done.
+2024-01-21 20:40:48 - root - INFO: - [feateng] Generated altogether 51 new features in 1 steps
+2024-01-21 20:40:48 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-21 20:40:48 - root - INFO: - [feateng] Generated a total of 51 additional features
+2024-01-21 20:40:48 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-01-21 20:40:48 - root - INFO: - [AutoFeat] Computing 51 new features.
+2024-01-21 20:40:50 - root - INFO: - [AutoFeat]    51/   51 new features ...done.
+2024-01-21 20:40:50 - root - INFO: - [AutoFeat] Final dataframe with 62 feature columns (51 new).
+2024-01-21 20:40:50 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-01-21 20:40:50 - root - INFO: - [AutoFeat] Computing 51 new features.
+2024-01-21 20:40:50 - root - INFO: - [AutoFeat]    51/   51 new features ...done.
+2024-01-21 20:40:50 - root - INFO: - wine_white:cls
+2024-01-21 20:40:50 - root - INFO: - 5 fold f1:[0.7584533927022064, 0.7116213841159564, 0.7062935080792223, 0.6771117599122799, 0.7211095500376601]
+2024-01-21 20:40:50 - root - INFO: - Final F1:0.714917918969465
+2024-01-21 20:40:50 - root - INFO: - ------------------------------------------------
+2024-01-22 20:59:56 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-22 20:59:56 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-22 20:59:56 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 35 features.
+2024-01-22 20:59:56 - root - INFO: - [AutoFeat] With 1203 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-22 20:59:56 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-22 20:59:57 - root - INFO: - [feateng] Generated 25 transformed features from 5 original features - done.
+2024-01-22 20:59:57 - root - INFO: - [feateng] Generated altogether 25 new features in 1 steps
+2024-01-22 20:59:57 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-22 20:59:57 - root - INFO: - [feateng] Generated a total of 23 additional features
+2024-01-22 20:59:58 - root - INFO: - [featsel] 22 features after 2 feature selection runs
+2024-01-22 20:59:58 - root - INFO: - [featsel] 14 features after correlation filtering
+2024-01-22 20:59:58 - root - INFO: - [featsel] 8 features after noise filtering
+2024-01-22 20:59:58 - root - INFO: - [AutoFeat] Computing 4 new features.
+2024-01-22 20:59:59 - root - INFO: - [AutoFeat]     4/    4 new features ...done.
+2024-01-22 20:59:59 - root - INFO: - [AutoFeat] Final dataframe with 9 feature columns (4 new).
+2024-01-22 20:59:59 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-22 20:59:59 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-22 20:59:59 - root - INFO: - 125.46054909518377
+2024-01-22 20:59:59 - root - INFO: - -4.844025 * x000
+2024-01-22 20:59:59 - root - INFO: - -3.808175 * x002
+2024-01-22 20:59:59 - root - INFO: - -3.446366 * x001
+2024-01-22 20:59:59 - root - INFO: - 1.464106 * x003
+2024-01-22 20:59:59 - root - INFO: - -0.455768 * x001**2
+2024-01-22 20:59:59 - root - INFO: - 0.106716 * x000**3
+2024-01-22 20:59:59 - root - INFO: - -0.091433 * 1/x002
+2024-01-22 20:59:59 - root - INFO: - -0.085846 * x004**3
+2024-01-22 20:59:59 - root - INFO: - [AutoFeat] Final score: 0.5402
+2024-01-22 20:59:59 - root - INFO: - [AutoFeat] Computing 4 new features.
+2024-01-22 20:59:59 - root - INFO: - [AutoFeat]     4/    4 new features ...done.
+2024-01-22 20:59:59 - root - INFO: - airfoil:reg
+2024-01-22 20:59:59 - root - INFO: - 5 fold rae:[0.7726421413882121, 0.7292265435914744, 0.7152626017959098, 0.7791765234264774, 0.7252801042355792]
+2024-01-22 20:59:59 - root - INFO: - Final rae:0.7443175828875306
+2024-01-22 20:59:59 - root - INFO: - ------------------------------------------------
+2024-01-22 21:00:04 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-22 21:00:04 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-22 21:00:04 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 35 features.
+2024-01-22 21:00:04 - root - INFO: - [AutoFeat] With 1203 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-22 21:00:04 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-22 21:00:05 - root - INFO: - [feateng] Generated 25 transformed features from 5 original features - done.
+2024-01-22 21:00:05 - root - INFO: - [feateng] Generated altogether 25 new features in 1 steps
+2024-01-22 21:00:05 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-22 21:00:05 - root - INFO: - [feateng] Generated a total of 23 additional features
+2024-01-22 21:00:06 - root - INFO: - [featsel] 22 features after 2 feature selection runs
+2024-01-22 21:00:06 - root - INFO: - [featsel] 14 features after correlation filtering
+2024-01-22 21:00:06 - root - INFO: - [featsel] 10 features after noise filtering
+2024-01-22 21:00:06 - root - INFO: - [AutoFeat] Computing 6 new features.
+2024-01-22 21:00:06 - root - INFO: - [AutoFeat]     6/    6 new features ...done.
+2024-01-22 21:00:06 - root - INFO: - [AutoFeat] Final dataframe with 11 feature columns (6 new).
+2024-01-22 21:00:06 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-22 21:00:06 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-22 21:00:06 - root - INFO: - 125.49324271737603
+2024-01-22 21:00:06 - root - INFO: - -4.636296 * x000
+2024-01-22 21:00:06 - root - INFO: - -3.645818 * x002
+2024-01-22 21:00:06 - root - INFO: - -3.283845 * x001
+2024-01-22 21:00:06 - root - INFO: - 1.343990 * x003
+2024-01-22 21:00:06 - root - INFO: - -0.442283 * x001**2
+2024-01-22 21:00:06 - root - INFO: - 0.098300 * x000**3
+2024-01-22 21:00:06 - root - INFO: - -0.091778 * x004**3
+2024-01-22 21:00:06 - root - INFO: - -0.082934 * 1/x002
+2024-01-22 21:00:06 - root - INFO: - 0.044486 * 1/x004
+2024-01-22 21:00:06 - root - INFO: - [AutoFeat] Final score: 0.5403
+2024-01-22 21:00:06 - root - INFO: - [AutoFeat] Computing 6 new features.
+2024-01-22 21:00:06 - root - INFO: - [AutoFeat]     6/    6 new features ...done.
+2024-01-22 21:00:07 - root - INFO: - airfoil:reg
+2024-01-22 21:00:07 - root - INFO: - 5 fold rae:[0.771828616004286, 0.738080738655924, 0.7026733436735733, 0.7899083157761426, 0.7330546398989976]
+2024-01-22 21:00:07 - root - INFO: - Final rae:0.7471091308017846
+2024-01-22 21:00:07 - root - INFO: - ------------------------------------------------
+2024-01-22 21:00:13 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-22 21:00:13 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-22 21:00:13 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 35 features.
+2024-01-22 21:00:13 - root - INFO: - [AutoFeat] With 1203 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-22 21:00:13 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-22 21:00:14 - root - INFO: - [feateng] Generated 25 transformed features from 5 original features - done.
+2024-01-22 21:00:14 - root - INFO: - [feateng] Generated altogether 25 new features in 1 steps
+2024-01-22 21:00:14 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-22 21:00:14 - root - INFO: - [feateng] Generated a total of 23 additional features
+2024-01-22 21:00:15 - root - INFO: - [featsel] 22 features after 2 feature selection runs
+2024-01-22 21:00:15 - root - INFO: - [featsel] 14 features after correlation filtering
+2024-01-22 21:00:15 - root - INFO: - [featsel] 9 features after noise filtering
+2024-01-22 21:00:15 - root - INFO: - [AutoFeat] Computing 5 new features.
+2024-01-22 21:00:15 - root - INFO: - [AutoFeat]     5/    5 new features ...done.
+2024-01-22 21:00:15 - root - INFO: - [AutoFeat] Final dataframe with 10 feature columns (5 new).
+2024-01-22 21:00:15 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-22 21:00:15 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-22 21:00:15 - root - INFO: - 125.06777822128771
+2024-01-22 21:00:15 - root - INFO: - -4.815741 * x000
+2024-01-22 21:00:15 - root - INFO: - -3.872262 * x002
+2024-01-22 21:00:15 - root - INFO: - -3.517690 * x001
+2024-01-22 21:00:15 - root - INFO: - 1.444130 * x003
+2024-01-22 21:00:15 - root - INFO: - -1.011576 * Abs(x001)
+2024-01-22 21:00:15 - root - INFO: - 0.707688 * Abs(x002)
+2024-01-22 21:00:15 - root - INFO: - 0.104768 * x000**3
+2024-01-22 21:00:15 - root - INFO: - -0.082288 * x004**3
+2024-01-22 21:00:15 - root - INFO: - -0.056194 * 1/x002
+2024-01-22 21:00:15 - root - INFO: - [AutoFeat] Final score: 0.5419
+2024-01-22 21:00:15 - root - INFO: - [AutoFeat] Computing 5 new features.
+2024-01-22 21:00:15 - root - INFO: - [AutoFeat]     5/    5 new features ...done.
+2024-01-22 21:00:16 - root - INFO: - airfoil:reg
+2024-01-22 21:00:16 - root - INFO: - 5 fold rae:[0.7723756027675759, 0.7306703988552548, 0.7151401965429895, 0.776040672606115, 0.7277936898182504]
+2024-01-22 21:00:16 - root - INFO: - Final rae:0.7444041121180371
+2024-01-22 21:00:16 - root - INFO: - ------------------------------------------------
+2024-01-22 21:03:27 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-22 21:03:27 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-22 21:03:27 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 35 features.
+2024-01-22 21:03:27 - root - INFO: - [AutoFeat] With 1203 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-22 21:03:27 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-22 21:03:28 - root - INFO: - [feateng] Generated 25 transformed features from 5 original features - done.
+2024-01-22 21:03:28 - root - INFO: - [feateng] Generated altogether 25 new features in 1 steps
+2024-01-22 21:03:28 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-22 21:03:28 - root - INFO: - [feateng] Generated a total of 23 additional features
+2024-01-22 21:03:29 - root - INFO: - [featsel] 22 features after 2 feature selection runs
+2024-01-22 21:03:29 - root - INFO: - [featsel] 14 features after correlation filtering
+2024-01-22 21:03:29 - root - INFO: - [featsel] 9 features after noise filtering
+2024-01-22 21:03:29 - root - INFO: - [AutoFeat] Computing 5 new features.
+2024-01-22 21:03:29 - root - INFO: - [AutoFeat]     5/    5 new features ...done.
+2024-01-22 21:03:29 - root - INFO: - [AutoFeat] Final dataframe with 10 feature columns (5 new).
+2024-01-22 21:03:29 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-22 21:03:29 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-22 21:03:29 - root - INFO: - 125.45272328929109
+2024-01-22 21:03:29 - root - INFO: - -4.694974 * x000
+2024-01-22 21:03:29 - root - INFO: - -3.682664 * x002
+2024-01-22 21:03:29 - root - INFO: - -3.304239 * x001
+2024-01-22 21:03:29 - root - INFO: - 1.394068 * x003
+2024-01-22 21:03:29 - root - INFO: - -0.437304 * x001**2
+2024-01-22 21:03:29 - root - INFO: - 0.100586 * x000**3
+2024-01-22 21:03:29 - root - INFO: - -0.089512 * 1/x002
+2024-01-22 21:03:29 - root - INFO: - -0.088986 * x004**3
+2024-01-22 21:03:29 - root - INFO: - [AutoFeat] Final score: 0.5397
+2024-01-22 21:03:29 - root - INFO: - [AutoFeat] Computing 5 new features.
+2024-01-22 21:03:29 - root - INFO: - [AutoFeat]     5/    5 new features ...done.
+2024-01-22 21:03:30 - root - INFO: - airfoil:reg
+2024-01-22 21:03:30 - root - INFO: - 5 fold rae:[0.7714387601287327, 0.7304028229475827, 0.7132419586017746, 0.7783011863666499, 0.7316059733228538]
+2024-01-22 21:03:30 - root - INFO: - Final rae:0.7449981402735187
+2024-01-22 21:03:30 - root - INFO: - ------------------------------------------------
+2024-01-22 21:04:53 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-22 21:04:53 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-22 21:04:53 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 35 features.
+2024-01-22 21:04:53 - root - INFO: - [AutoFeat] With 1203 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-22 21:04:53 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-22 21:04:54 - root - INFO: - [feateng] Generated 25 transformed features from 5 original features - done.
+2024-01-22 21:04:54 - root - INFO: - [feateng] Generated altogether 25 new features in 1 steps
+2024-01-22 21:04:54 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-22 21:04:54 - root - INFO: - [feateng] Generated a total of 23 additional features
+2024-01-22 21:04:55 - root - INFO: - [featsel] 22 features after 2 feature selection runs
+2024-01-22 21:04:55 - root - INFO: - [featsel] 14 features after correlation filtering
+2024-01-22 21:04:55 - root - INFO: - [featsel] 9 features after noise filtering
+2024-01-22 21:04:55 - root - INFO: - [AutoFeat] Computing 5 new features.
+2024-01-22 21:04:55 - root - INFO: - [AutoFeat]     5/    5 new features ...done.
+2024-01-22 21:04:55 - root - INFO: - [AutoFeat] Final dataframe with 10 feature columns (5 new).
+2024-01-22 21:04:55 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-22 21:04:55 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-22 21:04:55 - root - INFO: - 125.45272328929109
+2024-01-22 21:04:55 - root - INFO: - -4.694974 * x000
+2024-01-22 21:04:55 - root - INFO: - -3.682664 * x002
+2024-01-22 21:04:55 - root - INFO: - -3.304239 * x001
+2024-01-22 21:04:55 - root - INFO: - 1.394068 * x003
+2024-01-22 21:04:55 - root - INFO: - -0.437304 * x001**2
+2024-01-22 21:04:55 - root - INFO: - 0.100586 * x000**3
+2024-01-22 21:04:55 - root - INFO: - -0.089512 * 1/x002
+2024-01-22 21:04:55 - root - INFO: - -0.088986 * x004**3
+2024-01-22 21:04:55 - root - INFO: - [AutoFeat] Final score: 0.5397
+2024-01-22 21:04:55 - root - INFO: - [AutoFeat] Computing 5 new features.
+2024-01-22 21:04:55 - root - INFO: - [AutoFeat]     5/    5 new features ...done.
+2024-01-22 21:04:55 - root - INFO: - airfoil:reg
+2024-01-22 21:04:55 - root - INFO: - 5 fold rae:[0.7714387601287327, 0.7304028229475827, 0.7132419586017746, 0.7783011863666499, 0.7316059733228538]
+2024-01-22 21:04:55 - root - INFO: - Final rae:0.7449981402735187
+2024-01-22 21:04:55 - root - INFO: - ------------------------------------------------
+2024-01-22 21:20:20 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-22 21:20:20 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-22 21:20:20 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 35 features.
+2024-01-22 21:20:20 - root - INFO: - [AutoFeat] With 1203 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-22 21:20:20 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-22 21:20:21 - root - INFO: - [feateng] Generated 25 transformed features from 5 original features - done.
+2024-01-22 21:20:21 - root - INFO: - [feateng] Generated altogether 25 new features in 1 steps
+2024-01-22 21:20:21 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-22 21:20:21 - root - INFO: - [feateng] Generated a total of 23 additional features
+2024-01-22 21:20:22 - root - INFO: - [featsel] 22 features after 2 feature selection runs
+2024-01-22 21:20:22 - root - INFO: - [featsel] 14 features after correlation filtering
+2024-01-22 21:20:22 - root - INFO: - [featsel] 10 features after noise filtering
+2024-01-22 21:20:22 - root - INFO: - [AutoFeat] Computing 6 new features.
+2024-01-22 21:20:22 - root - INFO: - [AutoFeat]     6/    6 new features ...done.
+2024-01-22 21:20:22 - root - INFO: - [AutoFeat] Final dataframe with 11 feature columns (6 new).
+2024-01-22 21:20:22 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-22 21:20:22 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-22 21:20:22 - root - INFO: - 125.74215009475962
+2024-01-22 21:20:22 - root - INFO: - -4.645193 * x000
+2024-01-22 21:20:22 - root - INFO: - -3.670448 * x002
+2024-01-22 21:20:22 - root - INFO: - -3.430866 * x001
+2024-01-22 21:20:22 - root - INFO: - 1.343695 * x003
+2024-01-22 21:20:22 - root - INFO: - -0.834967 * Abs(x001)
+2024-01-22 21:20:22 - root - INFO: - 0.098188 * x000**3
+2024-01-22 21:20:22 - root - INFO: - -0.088955 * x004**3
+2024-01-22 21:20:22 - root - INFO: - -0.081578 * 1/x002
+2024-01-22 21:20:22 - root - INFO: - 0.049032 * 1/x004
+2024-01-22 21:20:22 - root - INFO: - [AutoFeat] Final score: 0.5410
+2024-01-22 21:20:22 - root - INFO: - [AutoFeat] Computing 6 new features.
+2024-01-22 21:20:22 - root - INFO: - [AutoFeat]     6/    6 new features ...done.
+2024-01-22 21:20:22 - root - INFO: - airfoil:reg
+2024-01-22 21:20:22 - root - INFO: - 5 fold rae:[0.7772435721659353, 0.7351462861779725, 0.6977892887310087, 0.7901323597928662, 0.7343676962145251]
+2024-01-22 21:20:22 - root - INFO: - Final rae:0.7469358406164615
+2024-01-22 21:20:22 - root - INFO: - ------------------------------------------------
+2024-01-22 21:20:30 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-22 21:20:30 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-22 21:20:30 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 35 features.
+2024-01-22 21:20:30 - root - INFO: - [AutoFeat] With 1203 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-22 21:20:30 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-22 21:20:31 - root - INFO: - [feateng] Generated 25 transformed features from 5 original features - done.
+2024-01-22 21:20:31 - root - INFO: - [feateng] Generated altogether 25 new features in 1 steps
+2024-01-22 21:20:31 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-22 21:20:31 - root - INFO: - [feateng] Generated a total of 23 additional features
+2024-01-22 21:20:32 - root - INFO: - [featsel] 22 features after 2 feature selection runs
+2024-01-22 21:20:32 - root - INFO: - [featsel] 14 features after correlation filtering
+2024-01-22 21:20:32 - root - INFO: - [featsel] 9 features after noise filtering
+2024-01-22 21:20:32 - root - INFO: - [AutoFeat] Computing 5 new features.
+2024-01-22 21:20:32 - root - INFO: - [AutoFeat]     5/    5 new features ...done.
+2024-01-22 21:20:32 - root - INFO: - [AutoFeat] Final dataframe with 10 feature columns (5 new).
+2024-01-22 21:20:32 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-22 21:20:32 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-22 21:20:32 - root - INFO: - 125.4527232892911
+2024-01-22 21:20:32 - root - INFO: - -4.694974 * x000
+2024-01-22 21:20:32 - root - INFO: - -3.682664 * x002
+2024-01-22 21:20:32 - root - INFO: - -3.304239 * x001
+2024-01-22 21:20:32 - root - INFO: - 1.394068 * x003
+2024-01-22 21:20:32 - root - INFO: - -0.437304 * x001**2
+2024-01-22 21:20:32 - root - INFO: - 0.100586 * x000**3
+2024-01-22 21:20:32 - root - INFO: - -0.089512 * 1/x002
+2024-01-22 21:20:32 - root - INFO: - -0.088986 * x004**3
+2024-01-22 21:20:32 - root - INFO: - [AutoFeat] Final score: 0.5397
+2024-01-22 21:20:32 - root - INFO: - [AutoFeat] Computing 5 new features.
+2024-01-22 21:20:32 - root - INFO: - [AutoFeat]     5/    5 new features ...done.
+2024-01-22 21:20:33 - root - INFO: - airfoil:reg
+2024-01-22 21:20:33 - root - INFO: - 5 fold rae:[0.7687744897982098, 0.7325075674091337, 0.7157724421893468, 0.777562364555715, 0.7247261071419264]
+2024-01-22 21:20:33 - root - INFO: - Final rae:0.7438685942188663
+2024-01-22 21:20:33 - root - INFO: - ------------------------------------------------
+2024-01-22 21:20:38 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-22 21:20:38 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-22 21:20:38 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 35 features.
+2024-01-22 21:20:38 - root - INFO: - [AutoFeat] With 1203 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-22 21:20:38 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-22 21:20:40 - root - INFO: - [feateng] Generated 25 transformed features from 5 original features - done.
+2024-01-22 21:20:40 - root - INFO: - [feateng] Generated altogether 25 new features in 1 steps
+2024-01-22 21:20:40 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-22 21:20:40 - root - INFO: - [feateng] Generated a total of 23 additional features
+2024-01-22 21:20:41 - root - INFO: - [featsel] 22 features after 2 feature selection runs
+2024-01-22 21:20:41 - root - INFO: - [featsel] 14 features after correlation filtering
+2024-01-22 21:20:41 - root - INFO: - [featsel] 9 features after noise filtering
+2024-01-22 21:20:41 - root - INFO: - [AutoFeat] Computing 5 new features.
+2024-01-22 21:20:41 - root - INFO: - [AutoFeat]     5/    5 new features ...done.
+2024-01-22 21:20:41 - root - INFO: - [AutoFeat] Final dataframe with 10 feature columns (5 new).
+2024-01-22 21:20:41 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-22 21:20:41 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-22 21:20:41 - root - INFO: - 125.4527232892911
+2024-01-22 21:20:41 - root - INFO: - -4.694974 * x000
+2024-01-22 21:20:41 - root - INFO: - -3.682664 * x002
+2024-01-22 21:20:41 - root - INFO: - -3.304239 * x001
+2024-01-22 21:20:41 - root - INFO: - 1.394068 * x003
+2024-01-22 21:20:41 - root - INFO: - -0.437304 * x001**2
+2024-01-22 21:20:41 - root - INFO: - 0.100586 * x000**3
+2024-01-22 21:20:41 - root - INFO: - -0.089512 * 1/x002
+2024-01-22 21:20:41 - root - INFO: - -0.088986 * x004**3
+2024-01-22 21:20:41 - root - INFO: - [AutoFeat] Final score: 0.5397
+2024-01-22 21:20:41 - root - INFO: - [AutoFeat] Computing 5 new features.
+2024-01-22 21:20:41 - root - INFO: - [AutoFeat]     5/    5 new features ...done.
+2024-01-22 21:20:41 - root - INFO: - airfoil:reg
+2024-01-22 21:20:41 - root - INFO: - 5 fold rae:[0.7687744897982098, 0.7325075674091337, 0.7157724421893468, 0.777562364555715, 0.7247261071419264]
+2024-01-22 21:20:41 - root - INFO: - Final rae:0.7438685942188663
+2024-01-22 21:20:41 - root - INFO: - ------------------------------------------------
+2024-01-22 21:21:28 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-22 21:21:28 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-22 21:21:28 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 35 features.
+2024-01-22 21:21:28 - root - INFO: - [AutoFeat] With 1203 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-22 21:21:28 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-22 21:21:30 - root - INFO: - [feateng] Generated 25 transformed features from 5 original features - done.
+2024-01-22 21:21:30 - root - INFO: - [feateng] Generated altogether 25 new features in 1 steps
+2024-01-22 21:21:30 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-22 21:21:30 - root - INFO: - [feateng] Generated a total of 23 additional features
+2024-01-22 21:21:30 - root - INFO: - [featsel] 22 features after 2 feature selection runs
+2024-01-22 21:21:30 - root - INFO: - [featsel] 14 features after correlation filtering
+2024-01-22 21:21:31 - root - INFO: - [featsel] 9 features after noise filtering
+2024-01-22 21:21:31 - root - INFO: - [AutoFeat] Computing 5 new features.
+2024-01-22 21:21:31 - root - INFO: - [AutoFeat]     5/    5 new features ...done.
+2024-01-22 21:21:31 - root - INFO: - [AutoFeat] Final dataframe with 10 feature columns (5 new).
+2024-01-22 21:21:31 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-22 21:21:31 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-22 21:21:31 - root - INFO: - 125.45272328929109
+2024-01-22 21:21:31 - root - INFO: - -4.694974 * x000
+2024-01-22 21:21:31 - root - INFO: - -3.682664 * x002
+2024-01-22 21:21:31 - root - INFO: - -3.304239 * x001
+2024-01-22 21:21:31 - root - INFO: - 1.394068 * x003
+2024-01-22 21:21:31 - root - INFO: - -0.437304 * x001**2
+2024-01-22 21:21:31 - root - INFO: - 0.100586 * x000**3
+2024-01-22 21:21:31 - root - INFO: - -0.089512 * 1/x002
+2024-01-22 21:21:31 - root - INFO: - -0.088986 * x004**3
+2024-01-22 21:21:31 - root - INFO: - [AutoFeat] Final score: 0.5397
+2024-01-22 21:21:31 - root - INFO: - [AutoFeat] Computing 5 new features.
+2024-01-22 21:21:31 - root - INFO: - [AutoFeat]     5/    5 new features ...done.
+2024-01-22 21:21:31 - root - INFO: - airfoil:reg
+2024-01-22 21:21:31 - root - INFO: - 5 fold rae:[0.7670950707179786, 0.7319427475102726, 0.7139225306307475, 0.7786379684239687, 0.7278208176483993]
+2024-01-22 21:21:31 - root - INFO: - Final rae:0.7438838269862733
+2024-01-22 21:21:31 - root - INFO: - ------------------------------------------------
+2024-01-22 21:21:36 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-22 21:21:36 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-22 21:21:36 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 35 features.
+2024-01-22 21:21:36 - root - INFO: - [AutoFeat] With 1203 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-22 21:21:36 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-22 21:21:37 - root - INFO: - [feateng] Generated 25 transformed features from 5 original features - done.
+2024-01-22 21:21:37 - root - INFO: - [feateng] Generated altogether 25 new features in 1 steps
+2024-01-22 21:21:37 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-22 21:21:37 - root - INFO: - [feateng] Generated a total of 23 additional features
+2024-01-22 21:21:38 - root - INFO: - [featsel] 22 features after 2 feature selection runs
+2024-01-22 21:21:38 - root - INFO: - [featsel] 14 features after correlation filtering
+2024-01-22 21:21:38 - root - INFO: - [featsel] 10 features after noise filtering
+2024-01-22 21:21:38 - root - INFO: - [AutoFeat] Computing 6 new features.
+2024-01-22 21:21:38 - root - INFO: - [AutoFeat]     6/    6 new features ...done.
+2024-01-22 21:21:38 - root - INFO: - [AutoFeat] Final dataframe with 11 feature columns (6 new).
+2024-01-22 21:21:39 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-22 21:21:39 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-22 21:21:39 - root - INFO: - 125.49324271737602
+2024-01-22 21:21:39 - root - INFO: - -4.636296 * x000
+2024-01-22 21:21:39 - root - INFO: - -3.645818 * x002
+2024-01-22 21:21:39 - root - INFO: - -3.283845 * x001
+2024-01-22 21:21:39 - root - INFO: - 1.343990 * x003
+2024-01-22 21:21:39 - root - INFO: - -0.442283 * x001**2
+2024-01-22 21:21:39 - root - INFO: - 0.098300 * x000**3
+2024-01-22 21:21:39 - root - INFO: - -0.091778 * x004**3
+2024-01-22 21:21:39 - root - INFO: - -0.082934 * 1/x002
+2024-01-22 21:21:39 - root - INFO: - 0.044486 * 1/x004
+2024-01-22 21:21:39 - root - INFO: - [AutoFeat] Final score: 0.5403
+2024-01-22 21:21:39 - root - INFO: - [AutoFeat] Computing 6 new features.
+2024-01-22 21:21:39 - root - INFO: - [AutoFeat]     6/    6 new features ...done.
+2024-01-22 21:21:39 - root - INFO: - airfoil:reg
+2024-01-22 21:21:39 - root - INFO: - 5 fold rae:[0.7750633843424076, 0.7361147353614614, 0.7037947982918038, 0.7851529975701836, 0.7316901302655857]
+2024-01-22 21:21:39 - root - INFO: - Final rae:0.7463632091662885
+2024-01-22 21:21:39 - root - INFO: - ------------------------------------------------
+2024-01-22 21:22:01 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-22 21:22:01 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-22 21:22:01 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 35 features.
+2024-01-22 21:22:01 - root - INFO: - [AutoFeat] With 1203 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-22 21:22:01 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-22 21:22:02 - root - INFO: - [feateng] Generated 25 transformed features from 5 original features - done.
+2024-01-22 21:22:02 - root - INFO: - [feateng] Generated altogether 25 new features in 1 steps
+2024-01-22 21:22:02 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-22 21:22:02 - root - INFO: - [feateng] Generated a total of 23 additional features
+2024-01-22 21:22:03 - root - INFO: - [featsel] 22 features after 2 feature selection runs
+2024-01-22 21:22:03 - root - INFO: - [featsel] 14 features after correlation filtering
+2024-01-22 21:22:03 - root - INFO: - [featsel] 9 features after noise filtering
+2024-01-22 21:22:03 - root - INFO: - [AutoFeat] Computing 5 new features.
+2024-01-22 21:22:04 - root - INFO: - [AutoFeat]     5/    5 new features ...done.
+2024-01-22 21:22:04 - root - INFO: - [AutoFeat] Final dataframe with 10 feature columns (5 new).
+2024-01-22 21:22:04 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-22 21:22:04 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-22 21:22:04 - root - INFO: - 125.45272328929109
+2024-01-22 21:22:04 - root - INFO: - -4.694974 * x000
+2024-01-22 21:22:04 - root - INFO: - -3.682664 * x002
+2024-01-22 21:22:04 - root - INFO: - -3.304239 * x001
+2024-01-22 21:22:04 - root - INFO: - 1.394068 * x003
+2024-01-22 21:22:04 - root - INFO: - -0.437304 * x001**2
+2024-01-22 21:22:04 - root - INFO: - 0.100586 * x000**3
+2024-01-22 21:22:04 - root - INFO: - -0.089512 * 1/x002
+2024-01-22 21:22:04 - root - INFO: - -0.088986 * x004**3
+2024-01-22 21:22:04 - root - INFO: - [AutoFeat] Final score: 0.5397
+2024-01-22 21:22:04 - root - INFO: - [AutoFeat] Computing 5 new features.
+2024-01-22 21:22:04 - root - INFO: - [AutoFeat]     5/    5 new features ...done.
+2024-01-22 21:22:04 - root - INFO: - airfoil:reg
+2024-01-22 21:22:04 - root - INFO: - 5 fold rae:[0.7670950707179786, 0.7319427475102726, 0.7139225306307475, 0.7786379684239687, 0.7278208176483993]
+2024-01-22 21:22:04 - root - INFO: - Final rae:0.7438838269862733
+2024-01-22 21:22:04 - root - INFO: - ------------------------------------------------
+2024-01-22 21:22:14 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-22 21:22:14 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-22 21:22:14 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 35 features.
+2024-01-22 21:22:14 - root - INFO: - [AutoFeat] With 1203 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-22 21:22:14 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-22 21:22:15 - root - INFO: - [feateng] Generated 25 transformed features from 5 original features - done.
+2024-01-22 21:22:15 - root - INFO: - [feateng] Generated altogether 25 new features in 1 steps
+2024-01-22 21:22:15 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-22 21:22:15 - root - INFO: - [feateng] Generated a total of 23 additional features
+2024-01-22 21:22:16 - root - INFO: - [featsel] 22 features after 2 feature selection runs
+2024-01-22 21:22:16 - root - INFO: - [featsel] 14 features after correlation filtering
+2024-01-22 21:22:16 - root - INFO: - [featsel] 10 features after noise filtering
+2024-01-22 21:22:16 - root - INFO: - [AutoFeat] Computing 6 new features.
+2024-01-22 21:22:16 - root - INFO: - [AutoFeat]     6/    6 new features ...done.
+2024-01-22 21:22:16 - root - INFO: - [AutoFeat] Final dataframe with 11 feature columns (6 new).
+2024-01-22 21:22:16 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-22 21:22:16 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-22 21:22:16 - root - INFO: - 125.49324271737602
+2024-01-22 21:22:16 - root - INFO: - -4.636296 * x000
+2024-01-22 21:22:16 - root - INFO: - -3.645818 * x002
+2024-01-22 21:22:16 - root - INFO: - -3.283845 * x001
+2024-01-22 21:22:16 - root - INFO: - 1.343990 * x003
+2024-01-22 21:22:16 - root - INFO: - -0.442283 * x001**2
+2024-01-22 21:22:16 - root - INFO: - 0.098300 * x000**3
+2024-01-22 21:22:16 - root - INFO: - -0.091778 * x004**3
+2024-01-22 21:22:16 - root - INFO: - -0.082934 * 1/x002
+2024-01-22 21:22:16 - root - INFO: - 0.044486 * 1/x004
+2024-01-22 21:22:16 - root - INFO: - [AutoFeat] Final score: 0.5403
+2024-01-22 21:22:16 - root - INFO: - [AutoFeat] Computing 6 new features.
+2024-01-22 21:22:16 - root - INFO: - [AutoFeat]     6/    6 new features ...done.
+2024-01-22 21:22:17 - root - INFO: - airfoil:reg
+2024-01-22 21:22:17 - root - INFO: - 5 fold rae:[0.7750633843424076, 0.7361147353614614, 0.7037947982918038, 0.7851529975701836, 0.7316901302655857]
+2024-01-22 21:22:17 - root - INFO: - Final rae:0.7463632091662885
+2024-01-22 21:22:17 - root - INFO: - ------------------------------------------------
+2024-01-22 21:22:56 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-22 21:22:56 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-22 21:22:56 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 35 features.
+2024-01-22 21:22:56 - root - INFO: - [AutoFeat] With 1203 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-22 21:22:56 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-22 21:22:57 - root - INFO: - [feateng] Generated 25 transformed features from 5 original features - done.
+2024-01-22 21:22:57 - root - INFO: - [feateng] Generated altogether 25 new features in 1 steps
+2024-01-22 21:22:57 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-22 21:22:57 - root - INFO: - [feateng] Generated a total of 23 additional features
+2024-01-22 21:22:58 - root - INFO: - [featsel] 22 features after 2 feature selection runs
+2024-01-22 21:22:58 - root - INFO: - [featsel] 14 features after correlation filtering
+2024-01-22 21:22:58 - root - INFO: - [featsel] 10 features after noise filtering
+2024-01-22 21:22:58 - root - INFO: - [AutoFeat] Computing 6 new features.
+2024-01-22 21:22:59 - root - INFO: - [AutoFeat]     6/    6 new features ...done.
+2024-01-22 21:22:59 - root - INFO: - [AutoFeat] Final dataframe with 11 feature columns (6 new).
+2024-01-22 21:22:59 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-22 21:22:59 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-22 21:22:59 - root - INFO: - 125.49324271737602
+2024-01-22 21:22:59 - root - INFO: - -4.636296 * x000
+2024-01-22 21:22:59 - root - INFO: - -3.645818 * x002
+2024-01-22 21:22:59 - root - INFO: - -3.283845 * x001
+2024-01-22 21:22:59 - root - INFO: - 1.343990 * x003
+2024-01-22 21:22:59 - root - INFO: - -0.442283 * x001**2
+2024-01-22 21:22:59 - root - INFO: - 0.098300 * x000**3
+2024-01-22 21:22:59 - root - INFO: - -0.091778 * x004**3
+2024-01-22 21:22:59 - root - INFO: - -0.082934 * 1/x002
+2024-01-22 21:22:59 - root - INFO: - 0.044486 * 1/x004
+2024-01-22 21:22:59 - root - INFO: - [AutoFeat] Final score: 0.5403
+2024-01-22 21:22:59 - root - INFO: - [AutoFeat] Computing 6 new features.
+2024-01-22 21:22:59 - root - INFO: - [AutoFeat]     6/    6 new features ...done.
+2024-01-22 21:22:59 - root - INFO: - airfoil:reg
+2024-01-22 21:22:59 - root - INFO: - 5 fold rae:[0.7737851096490699, 0.7407361985176171, 0.7031679091628862, 0.7886301735489312, 0.727361291273157]
+2024-01-22 21:22:59 - root - INFO: - Final rae:0.7467361364303322
+2024-01-22 21:22:59 - root - INFO: - ------------------------------------------------
+2024-01-22 21:23:02 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-22 21:23:02 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-22 21:23:02 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 35 features.
+2024-01-22 21:23:02 - root - INFO: - [AutoFeat] With 1203 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-22 21:23:02 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-22 21:23:03 - root - INFO: - [feateng] Generated 25 transformed features from 5 original features - done.
+2024-01-22 21:23:03 - root - INFO: - [feateng] Generated altogether 25 new features in 1 steps
+2024-01-22 21:23:03 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-22 21:23:03 - root - INFO: - [feateng] Generated a total of 23 additional features
+2024-01-22 21:23:04 - root - INFO: - [featsel] 22 features after 2 feature selection runs
+2024-01-22 21:23:04 - root - INFO: - [featsel] 14 features after correlation filtering
+2024-01-22 21:23:04 - root - INFO: - [featsel] 8 features after noise filtering
+2024-01-22 21:23:04 - root - INFO: - [AutoFeat] Computing 4 new features.
+2024-01-22 21:23:04 - root - INFO: - [AutoFeat]     4/    4 new features ...done.
+2024-01-22 21:23:04 - root - INFO: - [AutoFeat] Final dataframe with 9 feature columns (4 new).
+2024-01-22 21:23:04 - root - INFO: - [AutoFeat] Training final regression model.
+2024-01-22 21:23:04 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-01-22 21:23:04 - root - INFO: - 125.46054909518377
+2024-01-22 21:23:04 - root - INFO: - -4.844025 * x000
+2024-01-22 21:23:04 - root - INFO: - -3.808175 * x002
+2024-01-22 21:23:04 - root - INFO: - -3.446366 * x001
+2024-01-22 21:23:04 - root - INFO: - 1.464106 * x003
+2024-01-22 21:23:04 - root - INFO: - -0.455768 * x001**2
+2024-01-22 21:23:04 - root - INFO: - 0.106716 * x000**3
+2024-01-22 21:23:04 - root - INFO: - -0.091433 * 1/x002
+2024-01-22 21:23:04 - root - INFO: - -0.085846 * x004**3
+2024-01-22 21:23:04 - root - INFO: - [AutoFeat] Final score: 0.5402
+2024-01-22 21:23:04 - root - INFO: - [AutoFeat] Computing 4 new features.
+2024-01-22 21:23:04 - root - INFO: - [AutoFeat]     4/    4 new features ...done.
+2024-01-22 21:23:04 - root - INFO: - airfoil:reg
+2024-01-22 21:23:04 - root - INFO: - 5 fold rae:[0.7666198114152505, 0.7294807317444643, 0.7175095431361571, 0.7762101253377408, 0.7259500085225858]
+2024-01-22 21:23:04 - root - INFO: - Final rae:0.7431540440312397
+2024-01-22 21:23:04 - root - INFO: - ------------------------------------------------
+2024-01-24 23:45:02 - root - INFO: - ------------------------------------------------
+2024-01-24 23:45:32 - root - INFO: - ------------------------------------------------
+2024-01-24 23:46:43 - root - INFO: - ------------------------------------------------
+2024-01-24 23:46:54 - root - INFO: - ------------------------------------------------
+2024-01-24 23:47:32 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-24 23:47:32 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-24 23:47:32 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-01-24 23:47:32 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-24 23:47:32 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-24 23:47:33 - root - INFO: - [feateng] Generated 54 transformed features from 11 original features - done.
+2024-01-24 23:47:33 - root - INFO: - [feateng] Generated altogether 54 new features in 1 steps
+2024-01-24 23:47:33 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-24 23:47:33 - root - INFO: - [feateng] Generated a total of 54 additional features
+2024-01-24 23:47:33 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-01-24 23:47:33 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-24 23:47:35 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-24 23:47:35 - root - INFO: - [AutoFeat] Final dataframe with 64 feature columns (53 new).
+2024-01-24 23:47:35 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-01-24 23:47:35 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-24 23:47:35 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-24 23:47:35 - root - INFO: - wine_red:cls
+2024-01-24 23:47:35 - root - INFO: - 5 fold f1:[0.7136389360498019, 0.4857115749525617, 0.6324372759856631, 0.765877192982456, 0.7138653772594866]
+2024-01-24 23:47:35 - root - INFO: - Final F1:0.6623060714459938
+2024-01-24 23:47:35 - root - INFO: - ------------------------------------------------
+2024-01-24 23:48:06 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-24 23:48:06 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-24 23:48:06 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-01-24 23:48:06 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-24 23:48:06 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-24 23:48:08 - root - INFO: - [feateng] Generated 54 transformed features from 11 original features - done.
+2024-01-24 23:48:08 - root - INFO: - [feateng] Generated altogether 54 new features in 1 steps
+2024-01-24 23:48:08 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-24 23:48:08 - root - INFO: - [feateng] Generated a total of 54 additional features
+2024-01-24 23:48:08 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-01-24 23:48:08 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-24 23:48:10 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-24 23:48:10 - root - INFO: - [AutoFeat] Final dataframe with 64 feature columns (53 new).
+2024-01-24 23:48:10 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-01-24 23:48:10 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-24 23:48:10 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-24 23:49:54 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-24 23:49:54 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-24 23:49:54 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-01-24 23:49:54 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-24 23:49:54 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-24 23:49:56 - root - INFO: - [feateng] Generated 54 transformed features from 11 original features - done.
+2024-01-24 23:49:56 - root - INFO: - [feateng] Generated altogether 54 new features in 1 steps
+2024-01-24 23:49:56 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-24 23:49:56 - root - INFO: - [feateng] Generated a total of 54 additional features
+2024-01-24 23:49:56 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-01-24 23:49:56 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-24 23:49:59 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-24 23:49:59 - root - INFO: - [AutoFeat] Final dataframe with 64 feature columns (53 new).
+2024-01-24 23:49:59 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-01-24 23:49:59 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-24 23:49:59 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-24 23:50:02 - root - INFO: - wine_red:cls
+2024-01-24 23:50:02 - root - INFO: - 5 fold f1:[0.6907894736842104, 0.48801572897761647, 0.6852150537634408, 0.6880459770114942, 0.7397435897435898]
+2024-01-24 23:50:02 - root - INFO: - Final F1:0.6583619646360703
+2024-01-24 23:50:02 - root - INFO: - ------------------------------------------------
+2024-01-24 23:51:11 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-24 23:51:11 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-24 23:51:11 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-01-24 23:51:11 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-24 23:51:11 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-24 23:51:12 - root - INFO: - [feateng] Generated 54 transformed features from 11 original features - done.
+2024-01-24 23:51:12 - root - INFO: - [feateng] Generated altogether 54 new features in 1 steps
+2024-01-24 23:51:12 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-24 23:51:12 - root - INFO: - [feateng] Generated a total of 54 additional features
+2024-01-24 23:51:12 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-01-24 23:51:12 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-24 23:51:15 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-24 23:51:15 - root - INFO: - [AutoFeat] Final dataframe with 64 feature columns (53 new).
+2024-01-24 23:51:15 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-01-24 23:51:15 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-24 23:51:15 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-24 23:51:15 - root - INFO: - wine_red:cls
+2024-01-24 23:51:15 - root - INFO: - 5 fold f1:[0.7601249999999999, 0.5847701149425287, 0.6592592592592592, 0.6395813204508858, 0.5413943355119825]
+2024-01-24 23:51:15 - root - INFO: - Final F1:0.6370260060329312
+2024-01-24 23:51:15 - root - INFO: - ------------------------------------------------
+2024-01-24 23:51:59 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-24 23:51:59 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-24 23:51:59 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-01-24 23:51:59 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-24 23:51:59 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-24 23:52:00 - root - INFO: - [feateng] Generated 54 transformed features from 11 original features - done.
+2024-01-24 23:52:00 - root - INFO: - [feateng] Generated altogether 54 new features in 1 steps
+2024-01-24 23:52:00 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-24 23:52:00 - root - INFO: - [feateng] Generated a total of 54 additional features
+2024-01-24 23:52:00 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-01-24 23:52:00 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-24 23:52:04 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-24 23:52:04 - root - INFO: - [AutoFeat] Final dataframe with 64 feature columns (53 new).
+2024-01-24 23:52:04 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-01-24 23:52:04 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-24 23:52:04 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-24 23:52:39 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-24 23:52:39 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-24 23:52:39 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-01-24 23:52:39 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-24 23:52:39 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-24 23:52:40 - root - INFO: - [feateng] Generated 54 transformed features from 11 original features - done.
+2024-01-24 23:52:40 - root - INFO: - [feateng] Generated altogether 54 new features in 1 steps
+2024-01-24 23:52:40 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-24 23:52:40 - root - INFO: - [feateng] Generated a total of 54 additional features
+2024-01-24 23:52:40 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-01-24 23:52:40 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-24 23:52:43 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-24 23:52:43 - root - INFO: - [AutoFeat] Final dataframe with 64 feature columns (53 new).
+2024-01-24 23:52:43 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-01-24 23:52:43 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-24 23:52:43 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-24 23:52:45 - root - INFO: - wine_red:cls
+2024-01-24 23:52:45 - root - INFO: - 5 fold f1:[0.4274038461538462, 0.3448515661524077, 0.34698067632850244, 0.4587193776848949, 0.39999999999999997]
+2024-01-24 23:52:45 - root - INFO: - Final F1:0.3955910932639302
+2024-01-24 23:52:45 - root - INFO: - ------------------------------------------------
+2024-01-24 23:54:28 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-24 23:54:28 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-24 23:54:28 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-01-24 23:54:28 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-24 23:54:28 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-24 23:54:29 - root - INFO: - [feateng] Generated 54 transformed features from 11 original features - done.
+2024-01-24 23:54:29 - root - INFO: - [feateng] Generated altogether 54 new features in 1 steps
+2024-01-24 23:54:29 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-24 23:54:29 - root - INFO: - [feateng] Generated a total of 54 additional features
+2024-01-24 23:54:29 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-01-24 23:54:29 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-24 23:54:33 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-24 23:54:33 - root - INFO: - [AutoFeat] Final dataframe with 64 feature columns (53 new).
+2024-01-24 23:54:33 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-01-24 23:54:33 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-24 23:54:33 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-24 23:54:35 - root - INFO: - wine_red:cls
+2024-01-24 23:54:35 - root - INFO: - 5 fold f1:[0.701657196969697, 0.4932461873638344, 0.6081572117167221, 0.6446153846153846, 0.4873484003918786]
+2024-01-24 23:54:35 - root - INFO: - Final F1:0.5870048762115033
+2024-01-24 23:54:35 - root - INFO: - ------------------------------------------------
+2024-01-24 23:55:20 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-24 23:55:20 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-24 23:55:20 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-01-24 23:55:20 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-24 23:55:20 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-24 23:55:21 - root - INFO: - [feateng] Generated 54 transformed features from 11 original features - done.
+2024-01-24 23:55:21 - root - INFO: - [feateng] Generated altogether 54 new features in 1 steps
+2024-01-24 23:55:21 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-24 23:55:21 - root - INFO: - [feateng] Generated a total of 54 additional features
+2024-01-24 23:55:21 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-01-24 23:55:21 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-24 23:55:23 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-24 23:55:23 - root - INFO: - [AutoFeat] Final dataframe with 64 feature columns (53 new).
+2024-01-24 23:55:23 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-01-24 23:55:23 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-24 23:55:23 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-24 23:55:25 - root - INFO: - wine_red:cls
+2024-01-24 23:55:25 - root - INFO: - 5 fold f1:[0.6990000000000001, 0.5633333333333334, 0.5618088235294119, 0.6443277591973244, 0.5091044221479004]
+2024-01-24 23:55:25 - root - INFO: - Final F1:0.595514867641594
+2024-01-24 23:55:25 - root - INFO: - ------------------------------------------------
+2024-01-24 23:57:18 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-24 23:57:18 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-24 23:57:18 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-01-24 23:57:18 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-24 23:57:18 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-24 23:57:20 - root - INFO: - [feateng] Generated 54 transformed features from 11 original features - done.
+2024-01-24 23:57:20 - root - INFO: - [feateng] Generated altogether 54 new features in 1 steps
+2024-01-24 23:57:20 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-24 23:57:20 - root - INFO: - [feateng] Generated a total of 54 additional features
+2024-01-24 23:57:20 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-01-24 23:57:20 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-24 23:57:21 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-24 23:57:21 - root - INFO: - [AutoFeat] Final dataframe with 64 feature columns (53 new).
+2024-01-24 23:57:21 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-01-24 23:57:21 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-24 23:57:21 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-24 23:57:23 - root - INFO: - wine_red:cls
+2024-01-24 23:57:23 - root - INFO: - 5 fold f1:[0.7395206243032331, 0.4930555555555555, 0.602724358974359, 0.6543137254901962, 0.57997557997558]
+2024-01-24 23:57:23 - root - INFO: - Final F1:0.6139179688597848
+2024-01-24 23:57:23 - root - INFO: - ------------------------------------------------
+2024-01-25 00:40:23 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-25 00:40:23 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-25 00:40:23 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-01-25 00:40:23 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-25 00:40:23 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-25 00:40:25 - root - INFO: - [feateng] Generated 54 transformed features from 11 original features - done.
+2024-01-25 00:40:25 - root - INFO: - [feateng] Generated altogether 54 new features in 1 steps
+2024-01-25 00:40:25 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-25 00:40:25 - root - INFO: - [feateng] Generated a total of 54 additional features
+2024-01-25 00:40:25 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-01-25 00:40:25 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-25 00:40:28 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-25 00:40:28 - root - INFO: - [AutoFeat] Final dataframe with 64 feature columns (53 new).
+2024-01-25 00:40:28 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-01-25 00:40:28 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-25 00:40:28 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-25 00:40:28 - root - INFO: - wine_red:cls
+2024-01-25 00:40:28 - root - INFO: - 5 fold f1:[0.7136389360498019, 0.4857115749525617, 0.6324372759856631, 0.765877192982456, 0.7138653772594866]
+2024-01-25 00:40:28 - root - INFO: - Final F1:0.6623060714459938
+2024-01-25 00:40:28 - root - INFO: - ------------------------------------------------
+2024-01-25 00:41:20 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-25 00:41:20 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-25 00:41:20 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-01-25 00:41:20 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-25 00:41:20 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-25 00:41:21 - root - INFO: - [feateng] Generated 54 transformed features from 11 original features - done.
+2024-01-25 00:41:21 - root - INFO: - [feateng] Generated altogether 54 new features in 1 steps
+2024-01-25 00:41:21 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-25 00:41:21 - root - INFO: - [feateng] Generated a total of 54 additional features
+2024-01-25 00:41:21 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-01-25 00:41:21 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-25 00:41:25 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-25 00:41:25 - root - INFO: - [AutoFeat] Final dataframe with 64 feature columns (53 new).
+2024-01-25 00:41:25 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-01-25 00:41:25 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-25 00:41:25 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-25 00:41:25 - root - INFO: - wine_red:cls
+2024-01-25 00:41:25 - root - INFO: - 5 fold f1:[0.688498023715415, 0.5590909090909092, 0.5901622718052737, 0.5564814814814815, 0.5142450142450142]
+2024-01-25 00:41:25 - root - INFO: - Final F1:0.5816955400676187
+2024-01-25 00:41:25 - root - INFO: - ------------------------------------------------
+2024-01-25 00:43:11 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-25 00:43:11 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-25 00:43:11 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-01-25 00:43:11 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-25 00:43:11 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-25 00:43:12 - root - INFO: - [feateng] Generated 54 transformed features from 11 original features - done.
+2024-01-25 00:43:12 - root - INFO: - [feateng] Generated altogether 54 new features in 1 steps
+2024-01-25 00:43:12 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-25 00:43:12 - root - INFO: - [feateng] Generated a total of 54 additional features
+2024-01-25 00:43:12 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-01-25 00:43:12 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-25 00:43:14 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-25 00:43:14 - root - INFO: - [AutoFeat] Final dataframe with 64 feature columns (53 new).
+2024-01-25 00:43:14 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-01-25 00:43:14 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-25 00:43:14 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-25 00:43:14 - root - INFO: - wine_red:cls
+2024-01-25 00:43:14 - root - INFO: - 5 fold f1:[0.5592602892102336, 0.39981481481481485, 0.4325892857142858, 0.39110216718266255, 0.4332334332334332]
+2024-01-25 00:43:14 - root - INFO: - Final F1:0.44319999803108595
+2024-01-25 00:43:14 - root - INFO: - ------------------------------------------------
+2024-01-25 00:43:51 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-25 00:43:51 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-25 00:43:51 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-01-25 00:43:51 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-25 00:43:51 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-25 00:43:53 - root - INFO: - [feateng] Generated 54 transformed features from 11 original features - done.
+2024-01-25 00:43:53 - root - INFO: - [feateng] Generated altogether 54 new features in 1 steps
+2024-01-25 00:43:53 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-25 00:43:53 - root - INFO: - [feateng] Generated a total of 54 additional features
+2024-01-25 00:43:53 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-01-25 00:43:53 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-25 00:43:56 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-25 00:43:56 - root - INFO: - [AutoFeat] Final dataframe with 64 feature columns (53 new).
+2024-01-25 00:43:56 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-01-25 00:43:56 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-25 00:43:56 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-25 00:43:56 - root - INFO: - wine_red:cls
+2024-01-25 00:43:56 - root - INFO: - 5 fold f1:[0.701657196969697, 0.4932461873638344, 0.6081572117167221, 0.6446153846153846, 0.4873484003918786]
+2024-01-25 00:43:56 - root - INFO: - Final F1:0.5870048762115033
+2024-01-25 00:43:56 - root - INFO: - ------------------------------------------------
+2024-01-25 00:44:35 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-25 00:44:35 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-25 00:44:35 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-01-25 00:44:35 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-25 00:44:35 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-25 00:44:36 - root - INFO: - [feateng] Generated 54 transformed features from 11 original features - done.
+2024-01-25 00:44:36 - root - INFO: - [feateng] Generated altogether 54 new features in 1 steps
+2024-01-25 00:44:36 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-25 00:44:36 - root - INFO: - [feateng] Generated a total of 54 additional features
+2024-01-25 00:44:36 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-01-25 00:44:36 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-25 00:44:39 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-25 00:44:39 - root - INFO: - [AutoFeat] Final dataframe with 64 feature columns (53 new).
+2024-01-25 00:44:39 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-01-25 00:44:39 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-25 00:44:39 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-25 00:44:39 - root - INFO: - wine_red:cls
+2024-01-25 00:44:39 - root - INFO: - 5 fold f1:[0.6990000000000001, 0.5633333333333334, 0.5618088235294119, 0.6443277591973244, 0.5091044221479004]
+2024-01-25 00:44:39 - root - INFO: - Final F1:0.595514867641594
+2024-01-25 00:44:39 - root - INFO: - ------------------------------------------------
+2024-01-25 00:45:17 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-01-25 00:45:17 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-01-25 00:45:17 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-01-25 00:45:17 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-01-25 00:45:17 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-01-25 00:45:19 - root - INFO: - [feateng] Generated 54 transformed features from 11 original features - done.
+2024-01-25 00:45:19 - root - INFO: - [feateng] Generated altogether 54 new features in 1 steps
+2024-01-25 00:45:19 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-01-25 00:45:19 - root - INFO: - [feateng] Generated a total of 54 additional features
+2024-01-25 00:45:19 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-01-25 00:45:19 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-25 00:45:20 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-25 00:45:21 - root - INFO: - [AutoFeat] Final dataframe with 64 feature columns (53 new).
+2024-01-25 00:45:21 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-01-25 00:45:21 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-01-25 00:45:21 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-01-25 00:45:21 - root - INFO: - wine_red:cls
+2024-01-25 00:45:21 - root - INFO: - 5 fold f1:[0.7834090909090909, 0.5284539473684211, 0.6374166666666667, 0.6855614973262031, 0.6824009324009325]
+2024-01-25 00:45:21 - root - INFO: - Final F1:0.6634484269342629
+2024-01-25 00:45:21 - root - INFO: - ------------------------------------------------
+2024-02-03 23:30:08 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-02-03 23:30:08 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-02-03 23:30:08 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-02-03 23:30:08 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-02-03 23:30:08 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-02-03 23:30:10 - root - INFO: - [feateng] Generated 54 transformed features from 11 original features - done.
+2024-02-03 23:30:10 - root - INFO: - [feateng] Generated altogether 54 new features in 1 steps
+2024-02-03 23:30:10 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-02-03 23:30:10 - root - INFO: - [feateng] Generated a total of 54 additional features
+2024-02-03 23:30:10 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-02-03 23:30:10 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-02-03 23:30:12 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-02-03 23:30:12 - root - INFO: - [AutoFeat] Final dataframe with 64 feature columns (53 new).
+2024-02-03 23:30:12 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-02-03 23:30:12 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-02-03 23:30:12 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-02-03 23:30:12 - root - INFO: - wine_red:cls
+2024-02-03 23:30:12 - root - INFO: - 5 fold f1:[0.7720948616600791, 0.5220588235294118, 0.5731481481481481, 0.7239476210064446, 0.6815406815406815]
+2024-02-03 23:30:12 - root - INFO: - Final F1:0.6545580271769531
+2024-02-03 23:30:12 - root - INFO: - ------------------------------------------------
+2024-04-11 21:36:27 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-04-11 21:36:27 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-04-11 21:36:27 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 308 features.
+2024-04-11 21:36:27 - root - INFO: - [AutoFeat] With 214 data points this new feature matrix would use about 0.00 gb of space.
+2024-04-11 21:36:27 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-04-11 21:36:29 - root - INFO: - [feateng] Generated 219 transformed features from 44 original features - done.
+2024-04-11 21:36:29 - root - INFO: - [feateng] Generated altogether 219 new features in 1 steps
+2024-04-11 21:36:29 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-04-11 21:36:29 - root - INFO: - [feateng] Generated a total of 219 additional features
+2024-04-11 21:36:31 - root - INFO: - [featsel] 7 features after 2 feature selection runs
+2024-04-11 21:36:31 - root - INFO: - [featsel] 7 features after correlation filtering
+2024-04-11 21:36:31 - root - INFO: - [featsel] 5 features after noise filtering
+2024-04-11 21:36:31 - root - INFO: - [AutoFeat] Computing 4 new features.
+2024-04-11 21:36:31 - root - INFO: - [AutoFeat]     4/    4 new features ...done.
+2024-04-11 21:36:31 - root - INFO: - [AutoFeat] Final dataframe with 48 feature columns (4 new).
+2024-04-11 21:36:31 - root - INFO: - [AutoFeat] Training final classification model.
+2024-04-11 21:36:31 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-04-11 21:36:31 - root - INFO: - [0.2095632]
+2024-04-11 21:36:31 - root - INFO: - 0.029693 * x025
+2024-04-11 21:36:31 - root - INFO: - 0.028536 * exp(x029)
+2024-04-11 21:36:31 - root - INFO: - 0.025878 * exp(x031)
+2024-04-11 21:36:31 - root - INFO: - 0.018575 * 1/x016
+2024-04-11 21:36:31 - root - INFO: - 0.001857 * Abs(x037)
+2024-04-11 21:36:31 - root - INFO: - [AutoFeat] Final score: 0.8084
+2024-04-11 21:36:31 - root - INFO: - [AutoFeat] Computing 4 new features.
+2024-04-11 21:36:31 - root - INFO: - [AutoFeat]     4/    4 new features ...done.
+2024-04-11 21:36:31 - root - INFO: - spectf:cls
+2024-04-11 21:36:31 - root - INFO: - 5 fold f1:[0.7376623376623376, 0.5656565656565656, 0.6363636363636364, 0.5764705882352941, 0.5164835164835164]
+2024-04-11 21:36:31 - root - INFO: - Final F1:0.6065273288802701
+2024-04-11 21:36:31 - root - INFO: - ------------------------------------------------
+2024-04-11 21:36:39 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-04-11 21:36:39 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-04-11 21:36:39 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 308 features.
+2024-04-11 21:36:39 - root - INFO: - [AutoFeat] With 214 data points this new feature matrix would use about 0.00 gb of space.
+2024-04-11 21:36:39 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-04-11 21:36:40 - root - INFO: - [feateng] Generated 219 transformed features from 44 original features - done.
+2024-04-11 21:36:40 - root - INFO: - [feateng] Generated altogether 219 new features in 1 steps
+2024-04-11 21:36:40 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-04-11 21:36:40 - root - INFO: - [feateng] Generated a total of 219 additional features
+2024-04-11 21:36:43 - root - INFO: - [featsel] 4 features after 2 feature selection runs
+2024-04-11 21:36:43 - root - INFO: - [featsel] 4 features after correlation filtering
+2024-04-11 21:36:43 - root - INFO: - [featsel] 4 features after noise filtering
+2024-04-11 21:36:43 - root - INFO: - [AutoFeat] Computing 4 new features.
+2024-04-11 21:36:43 - root - INFO: - [AutoFeat]     4/    4 new features ...done.
+2024-04-11 21:36:43 - root - INFO: - [AutoFeat] Final dataframe with 48 feature columns (4 new).
+2024-04-11 21:36:43 - root - INFO: - [AutoFeat] Training final classification model.
+2024-04-11 21:36:43 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-04-11 21:36:43 - root - INFO: - [0.25742076]
+2024-04-11 21:36:43 - root - INFO: - 0.032911 * exp(x039)
+2024-04-11 21:36:43 - root - INFO: - 0.028481 * exp(x029)
+2024-04-11 21:36:43 - root - INFO: - 0.025804 * exp(x031)
+2024-04-11 21:36:43 - root - INFO: - 0.018705 * 1/x016
+2024-04-11 21:36:43 - root - INFO: - [AutoFeat] Final score: 0.8271
+2024-04-11 21:36:43 - root - INFO: - [AutoFeat] Computing 4 new features.
+2024-04-11 21:36:43 - root - INFO: - [AutoFeat]     4/    4 new features ...done.
+2024-04-11 21:36:43 - root - INFO: - spectf:cls
+2024-04-11 21:36:43 - root - INFO: - 5 fold f1:[0.7376623376623376, 0.5133689839572193, 0.5687645687645687, 0.5764705882352941, 0.5164835164835164]
+2024-04-11 21:36:43 - root - INFO: - Final F1:0.5825499990205871
+2024-04-11 21:36:43 - root - INFO: - ------------------------------------------------
+2024-04-11 21:37:47 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-04-11 21:37:47 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-04-11 21:37:47 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 308 features.
+2024-04-11 21:37:47 - root - INFO: - [AutoFeat] With 214 data points this new feature matrix would use about 0.00 gb of space.
+2024-04-11 21:37:47 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-04-11 21:37:48 - root - INFO: - [feateng] Generated 219 transformed features from 44 original features - done.
+2024-04-11 21:37:48 - root - INFO: - [feateng] Generated altogether 219 new features in 1 steps
+2024-04-11 21:37:48 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-04-11 21:37:48 - root - INFO: - [feateng] Generated a total of 219 additional features
+2024-04-11 21:37:50 - root - INFO: - [featsel] 12 features after 2 feature selection runs
+2024-04-11 21:37:50 - root - INFO: - [featsel] 12 features after correlation filtering
+2024-04-11 21:37:50 - root - INFO: - [featsel] 4 features after noise filtering
+2024-04-11 21:37:50 - root - INFO: - [AutoFeat] Computing 2 new features.
+2024-04-11 21:37:50 - root - INFO: - [AutoFeat]     2/    2 new features ...done.
+2024-04-11 21:37:50 - root - INFO: - [AutoFeat] Final dataframe with 46 feature columns (2 new).
+2024-04-11 21:37:50 - root - INFO: - [AutoFeat] Training final classification model.
+2024-04-11 21:37:50 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-04-11 21:37:50 - root - INFO: - [4.92840316]
+2024-04-11 21:37:50 - root - INFO: - 1.497657 * x025
+2024-04-11 21:37:50 - root - INFO: - 1.400366 * exp(x039)
+2024-04-11 21:37:50 - root - INFO: - 1.207428 * exp(x031)
+2024-04-11 21:37:50 - root - INFO: - 0.326175 * x027
+2024-04-11 21:37:50 - root - INFO: - [AutoFeat] Final score: 0.7710
+2024-04-11 21:37:50 - root - INFO: - [AutoFeat] Computing 2 new features.
+2024-04-11 21:37:50 - root - INFO: - [AutoFeat]     2/    2 new features ...done.
+2024-04-11 21:37:50 - root - INFO: - spectf:cls
+2024-04-11 21:37:50 - root - INFO: - 5 fold f1:[0.7376623376623376, 0.5656565656565656, 0.6363636363636364, 0.5764705882352941, 0.5164835164835164]
+2024-04-11 21:37:50 - root - INFO: - Final F1:0.6065273288802701
+2024-04-11 21:37:50 - root - INFO: - ------------------------------------------------
+2024-04-11 21:38:40 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-04-11 21:38:40 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-04-11 21:38:40 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 308 features.
+2024-04-11 21:38:40 - root - INFO: - [AutoFeat] With 214 data points this new feature matrix would use about 0.00 gb of space.
+2024-04-11 21:38:40 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-04-11 21:38:41 - root - INFO: - [feateng] Generated 219 transformed features from 44 original features - done.
+2024-04-11 21:38:41 - root - INFO: - [feateng] Generated altogether 219 new features in 1 steps
+2024-04-11 21:38:41 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-04-11 21:38:42 - root - INFO: - [feateng] Generated a total of 219 additional features
+2024-04-11 21:38:44 - root - INFO: - [featsel] 12 features after 2 feature selection runs
+2024-04-11 21:38:44 - root - INFO: - [featsel] 12 features after correlation filtering
+2024-04-11 21:38:44 - root - INFO: - [featsel] 5 features after noise filtering
+2024-04-11 21:38:44 - root - INFO: - [AutoFeat] Computing 2 new features.
+2024-04-11 21:38:44 - root - INFO: - [AutoFeat]     2/    2 new features ...done.
+2024-04-11 21:38:44 - root - INFO: - [AutoFeat] Final dataframe with 46 feature columns (2 new).
+2024-04-11 21:38:44 - root - INFO: - [AutoFeat] Training final classification model.
+2024-04-11 21:38:44 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-04-11 21:38:44 - root - INFO: - [4.30980732]
+2024-04-11 21:38:44 - root - INFO: - 1.236156 * x025
+2024-04-11 21:38:44 - root - INFO: - 1.185401 * x033
+2024-04-11 21:38:44 - root - INFO: - 1.147464 * exp(x039)
+2024-04-11 21:38:44 - root - INFO: - 0.787587 * exp(x029)
+2024-04-11 21:38:44 - root - INFO: - 0.649668 * x042
+2024-04-11 21:38:44 - root - INFO: - [AutoFeat] Final score: 0.7710
+2024-04-11 21:38:44 - root - INFO: - [AutoFeat] Computing 2 new features.
+2024-04-11 21:38:44 - root - INFO: - [AutoFeat]     2/    2 new features ...done.
+2024-04-11 21:38:44 - root - INFO: - spectf:cls
+2024-04-11 21:38:44 - root - INFO: - 5 fold f1:[0.8181818181818182, 0.5656565656565656, 0.6363636363636364, 0.5764705882352941, 0.5164835164835164]
+2024-04-11 21:38:44 - root - INFO: - Final F1:0.6226312249841662
+2024-04-11 21:38:44 - root - INFO: - ------------------------------------------------
+2024-04-11 21:55:27 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-04-11 21:55:27 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-04-11 21:55:27 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-04-11 21:55:27 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-04-11 21:55:27 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-04-11 21:55:28 - root - INFO: - [feateng] Generated 54 transformed features from 11 original features - done.
+2024-04-11 21:55:28 - root - INFO: - [feateng] Generated altogether 54 new features in 1 steps
+2024-04-11 21:55:28 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-04-11 21:55:28 - root - INFO: - [feateng] Generated a total of 54 additional features
+2024-04-11 21:55:28 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-04-11 21:55:28 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-04-11 21:55:31 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-04-11 21:55:31 - root - INFO: - [AutoFeat] Final dataframe with 64 feature columns (53 new).
+2024-04-11 21:55:31 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-04-11 21:55:31 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-04-11 21:55:31 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-04-11 21:55:31 - root - INFO: - wine_red:cls
+2024-04-11 21:55:31 - root - INFO: - 5 fold f1:[0.7459144736842104, 0.4765858585858586, 0.5916666666666666, 0.6394149831649832, 0.7118451723714883]
+2024-04-11 21:55:31 - root - INFO: - Final F1:0.6330854308946414
+2024-04-11 21:55:31 - root - INFO: - ------------------------------------------------
+2024-04-11 21:56:38 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-04-11 21:56:38 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-04-11 21:56:38 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-04-11 21:56:38 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-04-11 21:56:38 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-04-11 21:56:40 - root - INFO: - [feateng] Generated 54 transformed features from 11 original features - done.
+2024-04-11 21:56:40 - root - INFO: - [feateng] Generated altogether 54 new features in 1 steps
+2024-04-11 21:56:40 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-04-11 21:56:40 - root - INFO: - [feateng] Generated a total of 54 additional features
+2024-04-11 21:56:40 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-04-11 21:56:40 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-04-11 21:56:43 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-04-11 21:56:43 - root - INFO: - [AutoFeat] Final dataframe with 64 feature columns (53 new).
+2024-04-11 21:56:43 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-04-11 21:56:43 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-04-11 21:56:43 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-04-11 21:56:43 - root - INFO: - wine_red:cls
+2024-04-11 21:56:43 - root - INFO: - 5 fold f1:[0.7591718266253868, 0.5121536600120992, 0.6053333333333333, 0.696590909090909, 0.7118451723714883]
+2024-04-11 21:56:43 - root - INFO: - Final F1:0.6570189802866432
+2024-04-11 21:56:43 - root - INFO: - ------------------------------------------------
+2024-04-11 21:57:07 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-04-11 21:57:07 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-04-11 21:57:07 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 77 features.
+2024-04-11 21:57:07 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-04-11 21:57:07 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-04-11 21:57:08 - root - INFO: - [feateng] Generated 54 transformed features from 11 original features - done.
+2024-04-11 21:57:08 - root - INFO: - [feateng] Generated altogether 54 new features in 1 steps
+2024-04-11 21:57:08 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-04-11 21:57:08 - root - INFO: - [feateng] Generated a total of 54 additional features
+2024-04-11 21:57:08 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-04-11 21:57:08 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-04-11 21:57:10 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-04-11 21:57:10 - root - INFO: - [AutoFeat] Final dataframe with 64 feature columns (53 new).
+2024-04-11 21:57:10 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-04-11 21:57:10 - root - INFO: - [AutoFeat] Computing 53 new features.
+2024-04-11 21:57:10 - root - INFO: - [AutoFeat]    53/   53 new features ...done.
+2024-04-11 21:57:10 - root - INFO: - wine_red:cls
+2024-04-11 21:57:10 - root - INFO: - 5 fold f1:[0.7611070381231672, 0.557692037388432, 0.6089080459770114, 0.7144063180827886, 0.7215839715839716]
+2024-04-11 21:57:10 - root - INFO: - Final F1:0.672739482231074
+2024-04-11 21:57:10 - root - INFO: - ------------------------------------------------
+2024-04-16 23:58:04 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-04-16 23:58:04 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-04-16 23:58:04 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 168 features.
+2024-04-16 23:58:04 - root - INFO: - [AutoFeat] With 800 data points this new feature matrix would use about 0.00 gb of space.
+2024-04-16 23:58:04 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-04-16 23:58:06 - root - INFO: - [feateng] Generated 60 transformed features from 24 original features - done.
+2024-04-16 23:58:06 - root - INFO: - [feateng] Generated altogether 60 new features in 1 steps
+2024-04-16 23:58:06 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-04-16 23:58:06 - root - INFO: - [feateng] Generated a total of 52 additional features
+2024-04-16 23:58:06 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not performing feature selection.
+2024-04-16 23:58:06 - root - INFO: - [AutoFeat] Computing 46 new features.
+2024-04-16 23:58:09 - root - INFO: - [AutoFeat]    46/   46 new features ...done.
+2024-04-16 23:58:09 - root - INFO: - [AutoFeat] Final dataframe with 70 feature columns (46 new).
+2024-04-16 23:58:09 - root - WARNING: - [AutoFeat] Unknown problem_type mc - not fitting a prediction model.
+2024-04-16 23:58:09 - root - INFO: - [AutoFeat] Computing 46 new features.
+2024-04-16 23:58:09 - root - INFO: - [AutoFeat]    46/   46 new features ...done.
+2024-04-16 23:58:09 - root - INFO: - german_credit:cls
+2024-04-16 23:58:09 - root - INFO: - 5 fold f1:[0.670785659801678, 0.6131868131868132, 0.6290909090909091, 0.7123486682808717, 0.6526881720430108]
+2024-04-16 23:58:09 - root - INFO: - Final F1:0.6556200444806566
+2024-04-16 23:58:09 - root - INFO: - ------------------------------------------------
+2024-04-17 17:33:46 - root - WARNING: - [AutoFeat] This just calls fit_transform() but does not return the transformed dataframe.
+2024-04-17 17:33:46 - root - INFO: - [AutoFeat] It is much more efficient to call fit_transform() instead of fit() and transform()!
+2024-04-17 17:33:46 - root - INFO: - [AutoFeat] The 1 step feature engineering process could generate up to 56 features.
+2024-04-17 17:33:46 - root - INFO: - [AutoFeat] With 615 data points this new feature matrix would use about 0.00 gb of space.
+2024-04-17 17:33:46 - root - INFO: - [feateng] Step 1: transformation of original features
+2024-04-17 17:33:47 - root - INFO: - [feateng] Generated 40 transformed features from 8 original features - done.
+2024-04-17 17:33:47 - root - INFO: - [feateng] Generated altogether 40 new features in 1 steps
+2024-04-17 17:33:47 - root - INFO: - [feateng] Removing correlated features, as well as additions at the highest level
+2024-04-17 17:33:47 - root - INFO: - [feateng] Generated a total of 40 additional features
+2024-04-17 17:33:49 - root - INFO: - [featsel] 10 features after 2 feature selection runs
+2024-04-17 17:33:49 - root - INFO: - [featsel] 10 features after correlation filtering
+2024-04-17 17:33:49 - root - INFO: - [featsel] 9 features after noise filtering
+2024-04-17 17:33:49 - root - INFO: - [AutoFeat] Computing 4 new features.
+2024-04-17 17:33:49 - root - INFO: - [AutoFeat]     4/    4 new features ...done.
+2024-04-17 17:33:49 - root - INFO: - [AutoFeat] Final dataframe with 12 feature columns (4 new).
+2024-04-17 17:33:49 - root - INFO: - [AutoFeat] Training final classification model.
+2024-04-17 17:33:49 - root - INFO: - [AutoFeat] Trained model: largest coefficients:
+2024-04-17 17:33:49 - root - INFO: - [0.3228038]
+2024-04-17 17:33:49 - root - INFO: - 1.361119 * x001
+2024-04-17 17:33:49 - root - INFO: - 0.792923 * x005
+2024-04-17 17:33:49 - root - INFO: - 0.785526 * x007
+2024-04-17 17:33:49 - root - INFO: - 0.440829 * Abs(x005)
+2024-04-17 17:33:49 - root - INFO: - 0.439299 * x007**2
+2024-04-17 17:33:49 - root - INFO: - 0.350423 * x006
+2024-04-17 17:33:49 - root - INFO: - 0.150160 * x000
+2024-04-17 17:33:49 - root - INFO: - 0.097722 * x001**3
+2024-04-17 17:33:49 - root - INFO: - 0.027220 * x002**3
+2024-04-17 17:33:49 - root - INFO: - [AutoFeat] Final score: 0.7756
+2024-04-17 17:33:49 - root - INFO: - [AutoFeat] Computing 4 new features.
+2024-04-17 17:33:49 - root - INFO: - [AutoFeat]     4/    4 new features ...done.
+2024-04-17 17:33:49 - root - INFO: - pima_indian:cls
+2024-04-17 17:33:49 - root - INFO: - 5 fold f1:[0.724991854024112, 0.724991854024112, 0.4881720430107527, 0.6423815119467293, 0.6007295941632467]
+2024-04-17 17:33:49 - root - INFO: - Final F1:0.6362533714337906
+2024-04-17 17:33:49 - root - INFO: - ------------------------------------------------

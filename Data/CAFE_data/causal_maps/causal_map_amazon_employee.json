@@ -1,0 +1,38 @@
+{
+  "RESOURCE": {
+    "group": "direct",
+    "score": 3.344828762760576e-07
+  },
+  "MGR_ID": {
+    "group": "direct",
+    "score": 2.3601859306933038e-07
+  },
+  "ROLE_ROLLUP_1": {
+    "group": "direct",
+    "score": 1.0086446658856076e-06
+  },
+  "ROLE_ROLLUP_2": {
+    "group": "direct",
+    "score": 1.0286824419536908e-06
+  },
+  "ROLE_DEPTNAME": {
+    "group": "direct",
+    "score": 1.0113318605947373e-06
+  },
+  "ROLE_TITLE": {
+    "group": "direct",
+    "score": 1.0012900988631333e-06
+  },
+  "ROLE_FAMILY_DESC": {
+    "group": "direct",
+    "score": 1.0505725182100764e-06
+  },
+  "ROLE_FAMILY": {
+    "group": "direct",
+    "score": 6.734009287884663e-07
+  },
+  "ROLE_CODE": {
+    "group": "direct",
+    "score": 1.0460916116900974e-06
+  }
+}

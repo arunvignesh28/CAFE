@@ -1,0 +1,38 @@
+{
+  "fixed acidity": {
+    "group": "direct",
+    "score": -5.828606189218526e-06
+  },
+  "residual sugar": {
+    "group": "direct",
+    "score": 3.520329250836314e-06
+  },
+  "free sulfur dioxide": {
+    "group": "direct",
+    "score": 1.9315798271573924e-07
+  },
+  "total sulfur dioxide": {
+    "group": "direct",
+    "score": 1.817490382647068e-07
+  },
+  "pH": {
+    "group": "direct",
+    "score": 1.7786493100142733
+  },
+  "alcohol": {
+    "group": "direct",
+    "score": 2.012035492895712e-06
+  },
+  "volatile acidity": {
+    "group": "indirect",
+    "score": 2.5961926534352027
+  },
+  "density": {
+    "group": "indirect",
+    "score": 0.0022426510522717685
+  },
+  "sulphates": {
+    "group": "indirect",
+    "score": 2.6932272838202014
+  }
+}

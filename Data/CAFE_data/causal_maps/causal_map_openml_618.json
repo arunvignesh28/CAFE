@@ -1,0 +1,198 @@
+{
+  "oz1": {
+    "group": "direct",
+    "score": 0.0032773081705574766
+  },
+  "oz2": {
+    "group": "direct",
+    "score": -0.00014498732711501396
+  },
+  "oz3": {
+    "group": "direct",
+    "score": -0.00015933820257788174
+  },
+  "oz4": {
+    "group": "direct",
+    "score": 2.0417295553354364e-05
+  },
+  "oz5": {
+    "group": "direct",
+    "score": -0.0011671182534165455
+  },
+  "oz17": {
+    "group": "direct",
+    "score": -0.00023574572084185825
+  },
+  "oz19": {
+    "group": "direct",
+    "score": 0.000988793242962433
+  },
+  "oz21": {
+    "group": "direct",
+    "score": 0.0011288777740014336
+  },
+  "oz24": {
+    "group": "direct",
+    "score": 0.0039081597401817315
+  },
+  "oz28": {
+    "group": "direct",
+    "score": -0.0009174832501035778
+  },
+  "oz30": {
+    "group": "direct",
+    "score": -0.004047344866538172
+  },
+  "oz32": {
+    "group": "direct",
+    "score": -0.0013019587237941732
+  },
+  "oz41": {
+    "group": "direct",
+    "score": 0.0035520984696838275
+  },
+  "oz6": {
+    "group": "indirect",
+    "score": 0.005219820120517367
+  },
+  "oz7": {
+    "group": "indirect",
+    "score": -0.003383581166077814
+  },
+  "oz8": {
+    "group": "indirect",
+    "score": -0.004196409949446557
+  },
+  "oz9": {
+    "group": "indirect",
+    "score": -0.0035778915855459456
+  },
+  "oz10": {
+    "group": "indirect",
+    "score": -0.0006817007541740482
+  },
+  "oz11": {
+    "group": "indirect",
+    "score": -0.00405460310363659
+  },
+  "oz12": {
+    "group": "indirect",
+    "score": -0.0018405952330069178
+  },
+  "oz13": {
+    "group": "indirect",
+    "score": -0.003119575635305906
+  },
+  "oz14": {
+    "group": "indirect",
+    "score": 0.0006757230278287138
+  },
+  "oz15": {
+    "group": "indirect",
+    "score": -0.007777441651679877
+  },
+  "oz16": {
+    "group": "indirect",
+    "score": -7.403246806515513e-05
+  },
+  "oz18": {
+    "group": "indirect",
+    "score": -0.003229873342514595
+  },
+  "oz20": {
+    "group": "indirect",
+    "score": -0.004195203991054438
+  },
+  "oz22": {
+    "group": "indirect",
+    "score": -0.004290998586675594
+  },
+  "oz23": {
+    "group": "indirect",
+    "score": 0.003609694915103197
+  },
+  "oz25": {
+    "group": "indirect",
+    "score": -0.003617833700432757
+  },
+  "oz26": {
+    "group": "indirect",
+    "score": -0.0028845155371241336
+  },
+  "oz27": {
+    "group": "indirect",
+    "score": 0.001332099995010751
+  },
+  "oz29": {
+    "group": "indirect",
+    "score": 0.0008979840526711182
+  },
+  "oz31": {
+    "group": "indirect",
+    "score": -0.0033240162240232374
+  },
+  "oz33": {
+    "group": "indirect",
+    "score": -0.006403185855608269
+  },
+  "oz34": {
+    "group": "indirect",
+    "score": 4.817748682828531e-05
+  },
+  "oz35": {
+    "group": "indirect",
+    "score": 0.3147093337958587
+  },
+  "oz36": {
+    "group": "indirect",
+    "score": 0.0016638121291663302
+  },
+  "oz37": {
+    "group": "indirect",
+    "score": -0.002797874806182242
+  },
+  "oz38": {
+    "group": "indirect",
+    "score": 0.3147864811421599
+  },
+  "oz39": {
+    "group": "indirect",
+    "score": -0.0009435318431165515
+  },
+  "oz40": {
+    "group": "indirect",
+    "score": 0.006166869173251478
+  },
+  "oz42": {
+    "group": "indirect",
+    "score": -0.006226606572128499
+  },
+  "oz44": {
+    "group": "indirect",
+    "score": 0.0006829651501337821
+  },
+  "oz45": {
+    "group": "indirect",
+    "score": -0.006023822893876752
+  },
+  "oz46": {
+    "group": "indirect",
+    "score": -0.004248721711807842
+  },
+  "oz47": {
+    "group": "indirect",
+    "score": -0.008750540911493186
+  },
+  "oz48": {
+    "group": "indirect",
+    "score": -0.006678614162177799
+  },
+  "oz49": {
+    "group": "indirect",
+    "score": -0.0016282656792514082
+  },
+  "oz50": {
+    "group": "indirect",
+    "score": -0.000801770204732944
+  }
+}

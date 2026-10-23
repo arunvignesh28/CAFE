@@ -1,0 +1,46 @@
+{
+  "season": {
+    "group": "direct",
+    "score": 0.05479976034179271
+  },
+  "holiday": {
+    "group": "direct",
+    "score": 0.0002549303727199524
+  },
+  "weekday": {
+    "group": "direct",
+    "score": 0.06248784569058086
+  },
+  "workingday": {
+    "group": "direct",
+    "score": 0.012578288844833424
+  },
+  "weather": {
+    "group": "direct",
+    "score": 0.02681801028206468
+  },
+  "temp": {
+    "group": "direct",
+    "score": 0.011730982637426864
+  },
+  "atemp": {
+    "group": "direct",
+    "score": 0.01108140739556099
+  },
+  "humidity": {
+    "group": "direct",
+    "score": 0.011112734992777446
+  },
+  "windspeed": {
+    "group": "direct",
+    "score": 0.003843322997939881
+  },
+  "casual": {
+    "group": "direct",
+    "score": 1.2967921853064461
+  },
+  "registered": {
+    "group": "direct",
+    "score": 0.8965030860274572
+  }
+}

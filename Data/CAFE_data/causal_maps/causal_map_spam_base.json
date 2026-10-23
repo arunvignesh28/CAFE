@@ -1,0 +1,230 @@
+{
+  "18": {
+    "group": "direct",
+    "score": 5.243006546238387e-06
+  },
+  "54": {
+    "group": "direct",
+    "score": 4.55498119220158e-05
+  },
+  "55": {
+    "group": "direct",
+    "score": 0.0003749767608194111
+  },
+  "56": {
+    "group": "direct",
+    "score": 0.0003473578966768858
+  },
+  "0": {
+    "group": "indirect",
+    "score": 7.37347210154984e-05
+  },
+  "1": {
+    "group": "indirect",
+    "score": 7.826996874614242e-05
+  },
+  "2": {
+    "group": "indirect",
+    "score": 0.00012549758688117305
+  },
+  "3": {
+    "group": "indirect",
+    "score": 0.0007031557862626463
+  },
+  "4": {
+    "group": "indirect",
+    "score": 0.00011895226265583558
+  },
+  "5": {
+    "group": "indirect",
+    "score": 0.0007011828390550926
+  },
+  "6": {
+    "group": "indirect",
+    "score": 7.797797092280677e-05
+  },
+  "7": {
+    "group": "indirect",
+    "score": 7.365385148815522e-05
+  },
+  "8": {
+    "group": "indirect",
+    "score": 8.020865788778006e-05
+  },
+  "9": {
+    "group": "indirect",
+    "score": 0.00011454393199866174
+  },
+  "10": {
+    "group": "indirect",
+    "score": 0.0006129079002328436
+  },
+  "11": {
+    "group": "indirect",
+    "score": 0.00013288734319235026
+  },
+  "12": {
+    "group": "indirect",
+    "score": 0.0005831807536065198
+  },
+  "13": {
+    "group": "indirect",
+    "score": 0.0005407248115453941
+  },
+  "14": {
+    "group": "indirect",
+    "score": 0.0008548864241258239
+  },
+  "15": {
+    "group": "indirect",
+    "score": 8.62787327280902e-05
+  },
+  "16": {
+    "group": "indirect",
+    "score": 7.727326631501955e-05
+  },
+  "17": {
+    "group": "indirect",
+    "score": 7.366070832467552e-05
+  },
+  "19": {
+    "group": "indirect",
+    "score": 8.74249784184997e-05
+  },
+  "20": {
+    "group": "indirect",
+    "score": 0.00016737050892946993
+  },
+  "21": {
+    "group": "indirect",
+    "score": 7.43268663095432e-05
+  },
+  "22": {
+    "group": "indirect",
+    "score": 7.365036874120638e-05
+  },
+  "23": {
+    "group": "indirect",
+    "score": 0.0006274250071635244
+  },
+  "24": {
+    "group": "indirect",
+    "score": 5.759187148141552e-05
+  },
+  "25": {
+    "group": "indirect",
+    "score": 7.806895463567357e-05
+  },
+  "26": {
+    "group": "indirect",
+    "score": 9.169156589729204e-05
+  },
+  "27": {
+    "group": "indirect",
+    "score": 0.0005275298857964574
+  },
+  "28": {
+    "group": "indirect",
+    "score": 0.0005142740685773654
+  },
+  "29": {
+    "group": "indirect",
+    "score": 0.0005181218157726028
+  },
+  "30": {
+    "group": "indirect",
+    "score": 0.0005147026642491192
+  },
+  "31": {
+    "group": "indirect",
+    "score": 0.0005119741387924018
+  },
+  "32": {
+    "group": "indirect",
+    "score": 0.0004588434861490769
+  },
+  "33": {
+    "group": "indirect",
+    "score": 0.0005131616076746046
+  },
+  "34": {
+    "group": "indirect",
+    "score": 0.0005205014485355596
+  },
+  "35": {
+    "group": "indirect",
+    "score": 0.0005190379833398611
+  },
+  "36": {
+    "group": "indirect",
+    "score": 0.0005106919931518805
+  },
+  "37": {
+    "group": "indirect",
+    "score": 0.0009078861245540902
+  },
+  "38": {
+    "group": "indirect",
+    "score": 0.000516786982914273
+  },
+  "39": {
+    "group": "indirect",
+    "score": 0.0005558926410677883
+  },
+  "40": {
+    "group": "indirect",
+    "score": 0.0005116801337348633
+  },
+  "41": {
+    "group": "indirect",
+    "score": 0.0005173083559769072
+  },
+  "42": {
+    "group": "indirect",
+    "score": 0.0005187138230600443
+  },
+  "43": {
+    "group": "indirect",
+    "score": 0.0005135222737363995
+  },
+  "44": {
+    "group": "indirect",
+    "score": 0.00012335352374539938
+  },
+  "45": {
+    "group": "indirect",
+    "score": 0.0005250186838729017
+  },
+  "46": {
+    "group": "indirect",
+    "score": 0.0009078030605357359
+  },
+  "47": {
+    "group": "indirect",
+    "score": 0.0005121741876902828
+  },
+  "48": {
+    "group": "indirect",
+    "score": 0.0005621660718822581
+  },
+  "49": {
+    "group": "indirect",
+    "score": 7.263882167609642e-05
+  },
+  "50": {
+    "group": "indirect",
+    "score": 0.0010317046633474545
+  },
+  "51": {
+    "group": "indirect",
+    "score": 0.0001171463959452631
+  },
+  "52": {
+    "group": "indirect",
+    "score": 7.372777770365563e-05
+  },
+  "53": {
+    "group": "indirect",
+    "score": 0.0006818973930942759
+  }
+}

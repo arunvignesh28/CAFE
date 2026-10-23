@@ -1,0 +1,22 @@
+{
+  "f": {
+    "group": "direct",
+    "score": -1.1424799417625309e-07
+  },
+  "alpha": {
+    "group": "direct",
+    "score": 2.5275510330237774
+  },
+  "c": {
+    "group": "direct",
+    "score": 0.04684415497900292
+  },
+  "U_infinity": {
+    "group": "direct",
+    "score": 1.8818529096079892
+  },
+  "delta": {
+    "group": "indirect",
+    "score": 2.306951259714743
+  }
+}

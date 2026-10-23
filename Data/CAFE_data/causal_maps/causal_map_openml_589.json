@@ -1,0 +1,94 @@
+{
+  "oz1": {
+    "group": "direct",
+    "score": -5.3414342243058885e-05
+  },
+  "oz2": {
+    "group": "direct",
+    "score": -2.4366324885362292e-05
+  },
+  "oz3": {
+    "group": "direct",
+    "score": -8.515621352793363e-05
+  },
+  "oz4": {
+    "group": "direct",
+    "score": 4.0507959939008616e-05
+  },
+  "oz5": {
+    "group": "direct",
+    "score": 3.775239998778329e-05
+  },
+  "oz11": {
+    "group": "direct",
+    "score": 0.0004903602328261579
+  },
+  "oz15": {
+    "group": "direct",
+    "score": 0.037389971919322404
+  },
+  "oz7": {
+    "group": "indirect",
+    "score": 0.006905855635262788
+  },
+  "oz8": {
+    "group": "indirect",
+    "score": 0.006697302541610399
+  },
+  "oz9": {
+    "group": "indirect",
+    "score": 0.001585878287587997
+  },
+  "oz10": {
+    "group": "indirect",
+    "score": 0.0016575961451532493
+  },
+  "oz12": {
+    "group": "indirect",
+    "score": -0.011921434996125966
+  },
+  "oz13": {
+    "group": "indirect",
+    "score": 0.0038124911760998243
+  },
+  "oz14": {
+    "group": "indirect",
+    "score": -0.0010395831855553985
+  },
+  "oz16": {
+    "group": "indirect",
+    "score": 0.042619845696991
+  },
+  "oz17": {
+    "group": "indirect",
+    "score": -0.00014026528086451197
+  },
+  "oz18": {
+    "group": "indirect",
+    "score": 0.003647431526362945
+  },
+  "oz19": {
+    "group": "indirect",
+    "score": 0.04018321127183513
+  },
+  "oz20": {
+    "group": "indirect",
+    "score": -0.0002361697439492163
+  },
+  "oz21": {
+    "group": "indirect",
+    "score": 0.8330775536060975
+  },
+  "oz22": {
+    "group": "indirect",
+    "score": -0.00012816947818533117
+  },
+  "oz23": {
+    "group": "indirect",
+    "score": 0.0027824795585932706
+  },
+  "oz25": {
+    "group": "indirect",
+    "score": 0.040912083102302245
+  }
+}
